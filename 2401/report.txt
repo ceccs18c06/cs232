@@ -1,0 +1,64 @@
+CEC CS 18 c06 21-01-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Directory and file handling
+---------------------------------
+Command/Shell script/Program name
+
+mkdir
+cd
+rmdir
+cp
+rm
+mv
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+-------------------------------------
+#2: Sort command
+-------------------------------------
+Command/Shell script/Program name
+
+sort unsorted.txt sorted.txt
+
+-------------------------------------
+
+Input:
+--------
+#contains unsorted data
+unsorted.txt
+------------------
+
+Output:
+-----------
+#contains sorted data
+sorted.txt
+------------------------------------
+------------------------------------
+
+#3: Cut Command
+------------------------------------
+
+cut -f1 before_cut.txt > after_cut.txt
+
+Input:
+-----------------
+#before cut
+before_cut.txt
+
+Output:
+----------------
+#after cut
+after_cut.txt
+
