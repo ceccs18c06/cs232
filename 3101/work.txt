@@ -1,0 +1,392 @@
+Script started on 2020-01-31 17:30:45+0530
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ f[Ksftp cs18c06@192.168.0.30
+^C]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+^C]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+^C]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+^C]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+Connection closed
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ [K]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+Connection closed by 192.168.0.30 port 22
+Connection closed
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ sftp cs18c06@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+CEC CS 18 c06 21-01-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Directory and file handling
+---------------------------------
+Command/Shell script/Program name
+
+mkdir
+cd
+rmdir
+cp
+rm
+mv
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+-------------------
+Remarks if any:
+
+-------------------------------------
+-------------------------------------
+#2: Sort command
+-------------------------------------
+Command/Shell script/Program name
+
+sort unsorted.txt sorted.txt
+
+-------------------------------------
+
+Input:
+--------
+#contains unsorted data
+unsorted.txt
+------------------
+
+Output:
+-----------
+#contains sorted data
+sorted.txt
+------------------------------------
+------------------------------------
+
+#3: Cut Command
+------------------------------------
+
+cut -f1 before_cut.txt > after_cut.txt
+
+Input:
+-----------------
+#before cut
+before_cut.txt
+
+Output:
+----------------
+#after cut
+after_cut.txt
+
+Connected to 192.168.0.30.
+sftp> CEC CS 18 c06 21-01-2020
+Invalid command.
+sftp> Akhil Ravindran
+Invalid command.
+sftp> 
+sftp> --------------------------------
+Invalid command.
+sftp> #1: Directory and file handling
+sftp> ---------------------------------
+Invalid command.
+sftp> Command/Shell script/Program name
+Invalid command.
+sftp> 
+sftp> mkdir
+You must specify a path after a mkdir command.
+sftp> cd
+You must specify a path after a cd command.
+sftp> rmdir
+You must specify a path after a rmdir command.
+sftp> cp
+Invalid command.
+sftp> rm
+You must specify a path after a rm command.
+sftp> mv
+Invalid command.
+sftp> 
+sftp> ---------------------------------
+Invalid command.
+sftp> 
+sftp> Input: (If relevant)
+Invalid command.
+sftp> ---------------
+Invalid command.
+sftp> 
+sftp> --------------------------------
+Invalid command.
+sftp> Output: or Input & Output (whichever is applicable)
+Invalid command.
+sftp> 
+sftp> -------------------
+Invalid command.
+sftp> Remarks if any:
+Invalid command.
+sftp> 
+sftp> -------------------------------------
+Invalid command.
+sftp> -------------------------------------
+Invalid command.
+sftp> #2: Sort command
+sftp> -------------------------------------
+Invalid command.
+sftp> Command/Shell script/Program name
+Invalid command.
+sftp> 
+sftp> sort unsorted.txt sorted.txt
+Invalid command.
+sftp> 
+sftp> -------------------------------------
+Invalid command.
+sftp> 
+sftp> Input:
+Invalid command.
+sftp> --------
+Invalid command.
+sftp> #contains unsorted data
+sftp> unsorted.txt
+Invalid command.
+sftp> ------------------
+Invalid command.
+sftp> 
+sftp> Output:
+Invalid command.
+sftp> -----------
+Invalid command.
+sftp> #contains sorted data
+sftp> sorted.txt
+Invalid command.
+sftp> ------------------------------------
+Invalid command.
+sftp> ------------------------------------
+Invalid command.
+sftp> 
+sftp> #3: Cut Command
+sftp> ------------------------------------
+Invalid command.
+sftp> 
+sftp> cut -f1 before_cut.txt > after_cut.txt
+Invalid command.
+sftp> 
+sftp> Input:
+Invalid command.
+sftp> -----------------
+Invalid command.
+sftp> #before cut
+sftp> before_cut.txt
+Invalid command.
+sftp> 
+sftp> Output:
+Invalid command.
+sftp> ----------------
+Invalid command.
+sftp> #after cut
+sftp> after_cut.txt
+Invalid command.
+sftp> 
+sftp> CEC CS 18 c06 21-01-2020
+Invalid command.
+sftp> Akhil Ravindran
+Invalid command.
+sftp> 
+sftp> --------------------------------
+Invalid command.
+sftp> #1: Directory and file handling
+sftp> ---------------------------------
+Invalid command.
+sftp> Command/Shell script/Program name
+Invalid command.
+sftp> 
+sftp> mkdir
+You must specify a path after a mkdir command.
+sftp> cd
+You must specify a path after a cd command.
+sftp> rmdir
+You must specify a path after a rmdir command.
+sftp> cp
+Invalid command.
+sftp> rm
+You must specify a path after a rm command.
+sftp> mv
+Invalid command.
+sftp> 
+sftp> ---------------------------------
+Invalid command.
+sftp> 
+sftp> Input: (If relevant)
+Invalid command.
+sftp> ---------------
+Invalid command.
+sftp> 
+sftp> --------------------------------
+Invalid command.
+sftp> Output: or Input & Output (whichever is applicable)
+Invalid command.
+sftp> 
+sftp> -------------------
+Invalid command.
+sftp> Remarks if any:
+Invalid command.
+sftp> 
+sftp> -------------------------------------
+Invalid command.
+sftp> -------------------------------------
+Invalid command.
+sftp> #2: Sort command
+sftp> -------------------------------------
+Invalid command.
+sftp> Command/Shell script/Program name
+Invalid command.
+sftp> 
+sftp> sort unsorted.txt sorted.txt
+Invalid command.
+sftp> 
+sftp> -------------------------------------
+Invalid command.
+sftp> 
+sftp> Input:
+Invalid command.
+sftp> --------
+Invalid command.
+sftp> #contains unsorted data
+sftp> unsorted.txt
+Invalid command.
+sftp> ------------------
+Invalid command.
+sftp> 
+sftp> Output:
+Invalid command.
+sftp> -----------
+Invalid command.
+sftp> #contains sorted data
+sftp> sorted.txt
+Invalid command.
+sftp> ------------------------------------
+Invalid command.
+sftp> ------------------------------------
+Invalid command.
+sftp> 
+sftp> #3: Cut Command
+sftp> ------------------------------------
+Invalid command.
+sftp> 
+sftp> cut -f1 before_cut.txt > after_cut.txt
+Invalid command.
+sftp> 
+sftp> Input:
+Invalid command.
+sftp> -----------------
+Invalid command.
+sftp> #before cut
+sftp> before_cut.txt
+Invalid command.
+sftp> 
+sftp> Output:
+Invalid command.
+sftp> ----------------
+Invalid command.
+sftp> #after cut
+sftp> after_cut.txt
+Invalid command.
+sftp> 
+sftp> ls
+cs232             examples.desktop  exp               
+sftp> put [K[K[Kcd ..[K[K[K[Klcd ..
+sftp> git [K[K[Kcd [K[Klcd exp
+sftp> n[Kput new_txt.txt
+Uploading new_txt.txt to /home/cs18c06/new_txt.txt
+new_txt.txt                                                                                                           0%    0     0.0KB/s   --:-- ETAnew_txt.txt                                                                                                         100%   18    11.5KB/s   00:00    
+sftp> get ne[Ksftp> get new_txt.txt 
+Fetching /home/cs18c06/new_txt.txt to new_txt.txt
+/home/cs18c06/new_txt.txt                                                                                             0%    0     0.0KB/s   --:-- ETA/home/cs18c06/new_txt.txt                                                                                           100%   18     6.0KB/s   00:00    
+sftp> ls
+cs232             examples.desktop  exp               new_txt.txt       
+sftp> rm n[Ksftp> rm new_txt.txt 
+Removing /home/cs18c06/new_txt.txt
+sftp> exit[K[K[K[Kquit
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ ssh cs18c06@18[K92.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c06@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Fri Jan 31 11:53:34 2020 from 192.168.0.167
+$ ls
+scs232  examples.desktop  exp
+$ cd exp
+-sh: 2: scd: not found
+$ ls
+cs232  examples.desktop  exp
+$ cd exp
+$ ls
+new_txt.txt  test.txt
+$ rm te  new_txt.txt
+$ ls
+test.txt
+$ auils
+-sh: 8: auils: not found
+$ quit
+-sh: 9: quit: not found
+$ Connection to 192.168.0.30 closed by remote host.
+Connection to 192.168.0.30 closed.
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ ls
+report.txt  work.txt
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ scp work.txt csc18c[K[K[K[K18c06@192.168.0.30
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ scp work.txt cs18c06@192.168.0.30:exp
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+work.txt                                                                                                              0%    0     0.0KB/s   --:-- ETAwork.txt                                                                                                            100% 8192     1.5MB/s   00:00    
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ rsunc -r work.txt cs18c06@192.168.0.30[C[C[C[C[1P[1P[1P[1P[1@r[1@e[1@p[1@o[1@r[1@t
+
+Command 'rsunc' not found, did you mean:
+
+  command 'runc' from deb runc
+  command 'rsync' from deb rsync
+
+Try: apt install <deb name>
+
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ rsunc -r report.txt cs18c06@192.168.0.30[1P[C[1P[1@y[1@n
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ rsync -r report.txt cs18c06@192.168.0.30:exp
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c06@192.168.0.30's password: 
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ ls
+cs18c06@192.168.0.30  report.txt  work.txt
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ rm cs18c06@192.168.0.30 
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ ls
+report.txt  work.txt
+]0;s4c1@dell-Vostro-3470: ~/ceccs19c06/cs232/3101[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs19c06/cs232/3101[00m$ eix[K[Kxit
+exit
+
+Script done on 2020-01-31 17:52:40+0530

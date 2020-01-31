@@ -1,0 +1,61 @@
+CEC CS 18 c06 31-01-2020
+Akhil Ravindran
+
+--------------------------------
+#1: FTP USAGE
+---------------------------------
+Command/Shell script/Program name
+
+	ftp/sftp username@ip_adress
+	put
+	get
+	lcd
+	rm
+	mget
+	mput
+
+--------------------------------
+
+Result:
+---------------
+
+	sftp used to transfer file between local pc and server
+	put - used to put files to the server
+	get - used to download files from the server
+	lcd - change local directory
+	mget - get multiple files from server
+	mput - put multiple files to the server
+
+---------------------------------
+
+--------------------------------
+#2: SSH
+---------------------------------
+Command/Shell script/Program name
+
+	ssh username@host
+
+--------------------------------
+
+Result:
+---------------
+	
+	ssh is used to connect terminal of the host
+	
+---------------------------------
+
+--------------------------------
+#3: RSYNC
+---------------------------------
+Command/Shell script/Program name
+
+	rsync local_path username@host:destination
+
+--------------------------------
+
+Result:
+---------------
+	
+	rync is used to sync files between a localfolder and a remote folder ( only changes will be uploaded to the server )
+	
+---------------------------------
