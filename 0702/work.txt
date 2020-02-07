@@ -1,0 +1,6 @@
+Script started on 2020-02-07 17:58:51+0530
+]0;s4c1@dell-Vostro-3470: ~/ceccs18c06/cs232/0702[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs18c06/cs232/0702[00m$ vim index.html [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khe[K[Kgdo[K[Kedit index.html 
+]0;s4c1@dell-Vostro-3470: ~/ceccs18c06/cs232/0702[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs18c06/cs232/0702[00m$ s[Kexit
+exit
+
+Script done on 2020-02-07 18:07:43+0530

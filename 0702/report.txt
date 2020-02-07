@@ -1,0 +1,21 @@
+CEC CS 18 c06 07-02-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Upload webpage to the server
+---------------------------------
+Command/Shell script/Program name
+
+	touch index.html
+	sftp cs18c06@192.169.0.30
+	put index.html
+
+--------------------------------
+
+Result:
+---------------
+
+	Uploaded page can be viewed in http://192.168.0.30/cs18c/cs18c06/
+
+---------------------------------
+
