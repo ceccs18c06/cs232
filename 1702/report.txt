@@ -1,0 +1,37 @@
+CEC CS 18 c06 17-02-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Scripting Task
+---------------------------------
+Command/Shell script/Program name
+
+	grep
+	awk
+	pdftotext
+	cut
+	tee
+
+--------------------------------
+
+--------------------------------
+Input:
+
+	s1.pdf
+	s2.pdf
+
+
+--------------------------------
+
+Output:
+
+	results.txt
+------------------------------
+------------------------------
+Result:
+---------------
+
+	S1.pdf and S2.pdf contain the results.
+	results.txt contain sgpa and cgpa in sorted manner
+	
+---------------------------------

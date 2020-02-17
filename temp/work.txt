@@ -1,0 +1,6 @@
+Script started on 2020-02-17 17:43:59+0530
+]0;s4c1@dell-Vostro-3470: ~/ceccs18c06/cs232/temp[01;32ms4c1@dell-Vostro-3470[00m:[01;34m~/ceccs18c06/cs232/temp[00m$ chmod _[K+x sc[Kcript.[K.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit s[Kwork.txt 
+exit
+bash: exit: work.txt: numeric argument required
+
+Script done on 2020-02-17 17:44:13+0530
