@@ -1,0 +1,395 @@
+Script started on 2020-02-28 10:42:38+0530
+]0;dell@dell-Vostro-3470: ~/cs232/2802[01;32mdell@dell-Vostro-3470[00m:[01;34m~/cs232/2802[00m$ ip[Kfconfig 
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::10f6:b2f2:48a5:2435  prefixlen 64  scopeid 0x20<link>
+        ether e4:54:e8:af:12:0b  txqueuelen 1000  (Ethernet)
+        RX packets 65350  bytes 20773180 (20.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12677  bytes 2126448 (2.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11273  bytes 855957 (855.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11273  bytes 855957 (855.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:78:9f  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;dell@dell-Vostro-3470: ~/cs232/2802[01;32mdell@dell-Vostro-3470[00m:[01;34m~/cs232/2802[00m$ [K]0;dell@dell-Vostro-3470: ~/cs232/2802[01;32mdell@dell-Vostro-3470[00m:[01;34m~/cs232/2802[00m$ ifconfig [K[K[K[K[K[K[K[K[Ksyd[K[Kudo i
+[sudo] password for dell: 
+sudo: i: command not found
+]0;dell@dell-Vostro-3470: ~/cs232/2802[01;32mdell@dell-Vostro-3470[00m:[01;34m~/cs232/2802[00m$ sudo i-i
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ifconfig enp1s0 67[K[K1[K69.72.169.1
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ifconfig enp1s0 69.72.169.1-a[Ksudo apt-get install net-tools[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pifconfig -a[K[K[K
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 69.72.169.1  netmask 255.0.0.0  broadcast 69.255.255.255
+        ether e4:54:e8:af:12:0b  txqueuelen 1000  (Ethernet)
+        RX packets 65350  bytes 20773180 (20.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12789  bytes 2146193 (2.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 11839  bytes 896119 (896.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11839  bytes 896119 (896.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:78:9f  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ifconfig enp1s0 69.72.169.1[K[K[K[K72.1
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ifconfig enp1s0 69.72.172.1[K
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 69.72.172.1  netmask 255.0.0.0  broadcast 69.255.255.255
+        ether e4:54:e8:af:12:0b  txqueuelen 1000  (Ethernet)
+        RX packets 65373  bytes 20779234 (20.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12822  bytes 2152042 (2.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 12935  bytes 974247 (974.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12935  bytes 974247 (974.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:78:9f  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ping 59.72[1P9.7269.72[C[C[C[C.172.1[K2
+PING 69.72.172.2 (69.72.172.2) 56(84) bytes of data.
+From 69.72.172.1 icmp_seq=1 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=2 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=3 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=4 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=5 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=6 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=7 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=8 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=9 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=10 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=11 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=12 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=13 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=14 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=15 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=16 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=17 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=18 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=19 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=20 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=21 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=22 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=23 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=24 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=25 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=26 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=27 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=28 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=29 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=30 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=31 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=32 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=33 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=34 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=35 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=36 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=37 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=38 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=39 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=40 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=41 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=42 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=43 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=44 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=45 Destination Host Unreachable
+64 bytes from 69.72.172.2: icmp_seq=46 ttl=64 time=2048 ms
+64 bytes from 69.72.172.2: icmp_seq=47 ttl=64 time=1025 ms
+64 bytes from 69.72.172.2: icmp_seq=48 ttl=64 time=0.840 ms
+64 bytes from 69.72.172.2: icmp_seq=49 ttl=64 time=0.432 ms
+64 bytes from 69.72.172.2: icmp_seq=50 ttl=64 time=0.417 ms
+64 bytes from 69.72.172.2: icmp_seq=51 ttl=64 time=0.318 ms
+64 bytes from 69.72.172.2: icmp_seq=52 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=53 ttl=64 time=0.413 ms
+From 69.72.172.1 icmp_seq=93 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=94 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=95 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=96 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=97 Destination Host Unreachable
+From 69.72.172.1 icmp_seq=98 Destination Host Unreachable
+64 bytes from 69.72.172.2: icmp_seq=99 ttl=64 time=0.523 ms
+64 bytes from 69.72.172.2: icmp_seq=100 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=101 ttl=64 time=0.409 ms
+64 bytes from 69.72.172.2: icmp_seq=102 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=103 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=104 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=105 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=106 ttl=64 time=0.367 ms
+64 bytes from 69.72.172.2: icmp_seq=107 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=108 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=109 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=110 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=111 ttl=64 time=0.417 ms
+64 bytes from 69.72.172.2: icmp_seq=112 ttl=64 time=0.359 ms
+64 bytes from 69.72.172.2: icmp_seq=113 ttl=64 time=0.296 ms
+64 bytes from 69.72.172.2: icmp_seq=114 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=115 ttl=64 time=0.422 ms
+64 bytes from 69.72.172.2: icmp_seq=116 ttl=64 time=0.351 ms
+64 bytes from 69.72.172.2: icmp_seq=117 ttl=64 time=0.351 ms
+64 bytes from 69.72.172.2: icmp_seq=118 ttl=64 time=0.406 ms
+64 bytes from 69.72.172.2: icmp_seq=119 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=120 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=121 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=122 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=123 ttl=64 time=0.360 ms
+64 bytes from 69.72.172.2: icmp_seq=124 ttl=64 time=0.423 ms
+64 bytes from 69.72.172.2: icmp_seq=125 ttl=64 time=0.358 ms
+64 bytes from 69.72.172.2: icmp_seq=126 ttl=64 time=0.362 ms
+64 bytes from 69.72.172.2: icmp_seq=127 ttl=64 time=0.424 ms
+64 bytes from 69.72.172.2: icmp_seq=128 ttl=64 time=0.355 ms
+64 bytes from 69.72.172.2: icmp_seq=129 ttl=64 time=0.411 ms
+64 bytes from 69.72.172.2: icmp_seq=130 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=131 ttl=64 time=0.429 ms
+64 bytes from 69.72.172.2: icmp_seq=132 ttl=64 time=0.438 ms
+64 bytes from 69.72.172.2: icmp_seq=133 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=134 ttl=64 time=0.367 ms
+64 bytes from 69.72.172.2: icmp_seq=135 ttl=64 time=0.359 ms
+64 bytes from 69.72.172.2: icmp_seq=136 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=137 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=138 ttl=64 time=0.427 ms
+64 bytes from 69.72.172.2: icmp_seq=139 ttl=64 time=0.343 ms
+64 bytes from 69.72.172.2: icmp_seq=140 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=141 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=142 ttl=64 time=0.351 ms
+64 bytes from 69.72.172.2: icmp_seq=143 ttl=64 time=0.441 ms
+64 bytes from 69.72.172.2: icmp_seq=144 ttl=64 time=0.351 ms
+64 bytes from 69.72.172.2: icmp_seq=145 ttl=64 time=0.417 ms
+64 bytes from 69.72.172.2: icmp_seq=146 ttl=64 time=0.356 ms
+64 bytes from 69.72.172.2: icmp_seq=147 ttl=64 time=0.364 ms
+64 bytes from 69.72.172.2: icmp_seq=148 ttl=64 time=0.285 ms
+64 bytes from 69.72.172.2: icmp_seq=149 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=150 ttl=64 time=0.422 ms
+64 bytes from 69.72.172.2: icmp_seq=151 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=152 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=153 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=154 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=155 ttl=64 time=0.417 ms
+64 bytes from 69.72.172.2: icmp_seq=156 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=157 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=158 ttl=64 time=0.411 ms
+64 bytes from 69.72.172.2: icmp_seq=159 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=160 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=161 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=162 ttl=64 time=0.461 ms
+64 bytes from 69.72.172.2: icmp_seq=163 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=164 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=165 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=166 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=167 ttl=64 time=0.408 ms
+64 bytes from 69.72.172.2: icmp_seq=168 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=169 ttl=64 time=0.411 ms
+64 bytes from 69.72.172.2: icmp_seq=170 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=171 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=172 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=173 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=174 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=175 ttl=64 time=0.362 ms
+64 bytes from 69.72.172.2: icmp_seq=176 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=177 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=178 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=179 ttl=64 time=0.366 ms
+64 bytes from 69.72.172.2: icmp_seq=180 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=181 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=182 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=183 ttl=64 time=0.359 ms
+64 bytes from 69.72.172.2: icmp_seq=184 ttl=64 time=0.297 ms
+64 bytes from 69.72.172.2: icmp_seq=185 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=186 ttl=64 time=0.350 ms
+64 bytes from 69.72.172.2: icmp_seq=187 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=188 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=189 ttl=64 time=0.424 ms
+64 bytes from 69.72.172.2: icmp_seq=190 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=191 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=192 ttl=64 time=0.489 ms
+64 bytes from 69.72.172.2: icmp_seq=193 ttl=64 time=0.440 ms
+64 bytes from 69.72.172.2: icmp_seq=194 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=195 ttl=64 time=0.411 ms
+17217264 bytes from 69.72.172.2: icmp_seq=196 ttl=64 time=0.414 ms
+17217217264 bytes from 69.72.172.2: icmp_seq=197 ttl=64 time=0.364 ms
+64 bytes from 69.72.172.2: icmp_seq=198 ttl=64 time=0.437 ms
+64 bytes from 69.72.172.2: icmp_seq=199 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=200 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=201 ttl=64 time=0.436 ms
+64 bytes from 69.72.172.2: icmp_seq=202 ttl=64 time=0.430 ms
+64 bytes from 69.72.172.2: icmp_seq=203 ttl=64 time=0.417 ms
+64 bytes from 69.72.172.2: icmp_seq=204 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=205 ttl=64 time=0.362 ms
+64 bytes from 69.72.172.2: icmp_seq=206 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=207 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=208 ttl=64 time=0.424 ms
+64 bytes from 69.72.172.2: icmp_seq=209 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=210 ttl=64 time=0.360 ms
+64 bytes from 69.72.172.2: icmp_seq=211 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=212 ttl=64 time=0.354 ms
+64 bytes from 69.72.172.2: icmp_seq=213 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=214 ttl=64 time=0.365 ms
+64 bytes from 69.72.172.2: icmp_seq=215 ttl=64 time=0.298 ms
+17264 bytes from 69.72.172.2: icmp_seq=216 ttl=64 time=0.367 ms
+64 bytes from 69.72.172.2: icmp_seq=217 ttl=64 time=0.284 ms
+64 bytes from 69.72.172.2: icmp_seq=218 ttl=64 time=0.381 ms
+17217217217217264 bytes from 69.72.172.2: icmp_seq=219 ttl=64 time=0.285 ms
+17217217217264 bytes from 69.72.172.2: icmp_seq=220 ttl=64 time=0.363 ms
+64 bytes from 69.72.172.2: icmp_seq=221 ttl=64 time=0.419 ms
+^C
+--- 69.72.172.2 ping statistics ---
+221 packets transmitted, 131 received, +51 errors, 40% packet loss, time 225285ms
+rtt min/avg/max/mdev = 0.284/23.859/2048.573/198.712 ms, pipe 4
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ping 69.72.172.2[8Pifconfigping 69.72.172.2[8Pifconfigping 69.72.172.2
+PING 69.72.172.2 (69.72.172.2) 56(84) bytes of data.
+64 bytes from 69.72.172.2: icmp_seq=1 ttl=64 time=0.285 ms
+64 bytes from 69.72.172.2: icmp_seq=2 ttl=64 time=0.411 ms
+64 bytes from 69.72.172.2: icmp_seq=3 ttl=64 time=0.357 ms
+64 bytes from 69.72.172.2: icmp_seq=4 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=5 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=6 ttl=64 time=0.368 ms
+64 bytes from 69.72.172.2: icmp_seq=7 ttl=64 time=0.368 ms
+64 bytes from 69.72.172.2: icmp_seq=8 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=9 ttl=64 time=0.322 ms
+64 bytes from 69.72.172.2: icmp_seq=10 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=11 ttl=64 time=0.357 ms
+64 bytes from 69.72.172.2: icmp_seq=12 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=13 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=14 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=15 ttl=64 time=0.423 ms
+64 bytes from 69.72.172.2: icmp_seq=16 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=17 ttl=64 time=0.422 ms
+64 bytes from 69.72.172.2: icmp_seq=18 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=19 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=20 ttl=64 time=0.419 ms
+64 bytes from 69.72.172.2: icmp_seq=21 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=22 ttl=64 time=0.359 ms
+64 bytes from 69.72.172.2: icmp_seq=23 ttl=64 time=0.423 ms
+64 bytes from 69.72.172.2: icmp_seq=24 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=25 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=26 ttl=64 time=0.367 ms
+64 bytes from 69.72.172.2: icmp_seq=27 ttl=64 time=0.444 ms
+64 bytes from 69.72.172.2: icmp_seq=28 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=29 ttl=64 time=0.355 ms
+64 bytes from 69.72.172.2: icmp_seq=30 ttl=64 time=0.415 ms
+64 bytes from 69.72.172.2: icmp_seq=31 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=32 ttl=64 time=0.280 ms
+64 bytes from 69.72.172.2: icmp_seq=33 ttl=64 time=0.360 ms
+64 bytes from 69.72.172.2: icmp_seq=34 ttl=64 time=0.412 ms
+64 bytes from 69.72.172.2: icmp_seq=35 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=36 ttl=64 time=0.363 ms
+64 bytes from 69.72.172.2: icmp_seq=37 ttl=64 time=0.420 ms
+64 bytes from 69.72.172.2: icmp_seq=38 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=39 ttl=64 time=0.413 ms
+64 bytes from 69.72.172.2: icmp_seq=40 ttl=64 time=0.358 ms
+64 bytes from 69.72.172.2: icmp_seq=41 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=42 ttl=64 time=0.408 ms
+64 bytes from 69.72.172.2: icmp_seq=43 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=44 ttl=64 time=0.364 ms
+64 bytes from 69.72.172.2: icmp_seq=45 ttl=64 time=0.411 ms
+64 bytes from 69.72.172.2: icmp_seq=46 ttl=64 time=0.427 ms
+64 bytes from 69.72.172.2: icmp_seq=47 ttl=64 time=0.418 ms
+64 bytes from 69.72.172.2: icmp_seq=48 ttl=64 time=0.284 ms
+64 bytes from 69.72.172.2: icmp_seq=49 ttl=64 time=0.364 ms
+64 bytes from 69.72.172.2: icmp_seq=50 ttl=64 time=0.410 ms
+64 bytes from 69.72.172.2: icmp_seq=51 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=52 ttl=64 time=0.416 ms
+64 bytes from 69.72.172.2: icmp_seq=53 ttl=64 time=0.360 ms
+64 bytes from 69.72.172.2: icmp_seq=54 ttl=64 time=0.357 ms
+64 bytes from 69.72.172.2: icmp_seq=55 ttl=64 time=0.361 ms
+64 bytes from 69.72.172.2: icmp_seq=56 ttl=64 time=0.428 ms
+64 bytes from 69.72.172.2: icmp_seq=57 ttl=64 time=0.364 ms
+64 bytes from 69.72.172.2: icmp_seq=58 ttl=64 time=0.423 ms
+64 bytes from 69.72.172.2: icmp_seq=59 ttl=64 time=0.476 ms
+64 bytes from 69.72.172.2: icmp_seq=60 ttl=64 time=0.427 ms
+64 bytes from 69.72.172.2: icmp_seq=61 ttl=64 time=0.366 ms
+64 bytes from 69.72.172.2: icmp_seq=62 ttl=64 time=0.414 ms
+64 bytes from 69.72.172.2: icmp_seq=63 ttl=64 time=0.294 ms
+64 bytes from 69.72.172.2: icmp_seq=64 ttl=64 time=0.301 ms
+64 bytes from 69.72.172.2: icmp_seq=65 ttl=64 time=0.419 ms
+^C
+--- 69.72.172.2 ping statistics ---
+65 packets transmitted, 65 received, 0% packet loss, time 65525ms
+rtt min/avg/max/mdev = 0.280/0.392/0.476/0.042 ms
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# ifconfig -a
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 69.72.172.1  netmask 255.0.0.0  broadcast 69.255.255.255
+        ether e4:54:e8:af:12:0b  txqueuelen 1000  (Ethernet)
+        RX packets 65748  bytes 20826875 (20.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 13234  bytes 2190917 (2.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 14346  bytes 1076519 (1.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 14346  bytes 1076519 (1.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ac:d5:64:51:78:9f  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+69.0.0.0        0.0.0.0         255.0.0.0       U     0      0        0 enp1s0
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# route [K[K[K[K[K[Kcat /t[K[Ket[K[K/etc/resolv.confg[K
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# [K]0;root@dell-Vostro-3470: ~root@dell-Vostro-3470:~# exit
+logout
+]0;dell@dell-Vostro-3470: ~/cs232/2802[01;32mdell@dell-Vostro-3470[00m:[01;34m~/cs232/2802[00m$ exit
+exit
+
+Script done on 2020-02-28 11:27:56+0530

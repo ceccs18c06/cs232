@@ -1,0 +1,23 @@
+CEC CS 18 c06 07-02-2020
+Akhil Ravindran
+MAC address: e4:54:e8:af:12:0b
+
+--------------------------------
+#1: Networking Tasks
+---------------------------------
+Command/Shell script/Program name
+
+	ifconfig
+	ifconfig -a
+	route
+	/etc/resolv.conf
+	ping
+
+--------------------------------
+
+Result:
+---------------
+
+	Successfully pinged with other connected devices.
+
+---------------------------------
