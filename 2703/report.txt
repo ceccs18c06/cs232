@@ -1,0 +1,21 @@
+CEC CS 18 c06 27-03-2020
+Akhil Ravindran
+MAC address: 02:42:4f:47:59:6a
+
+
+--------------------------------
+#1: Linux Installation
+---------------------------------
+
+
+Command/Shell script/Program name
+---------------------------------
+    
+    Successfully installed Linux mint
+
+--------------------------------
+Output:
+
+    Screenshots of the installation are uploaded with this report.txt
+    
+    Screenshot names are in format Screenshot_[year]_[time].png
