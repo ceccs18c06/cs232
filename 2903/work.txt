@@ -1,0 +1,473 @@
+Script started on 2020-03-29 18:14:51+0530
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt update- updateg updatee updatet update
+[sudo] password for ghostjson: ******      ********        
+0% [Working]            Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease
+0% [Connecting to ppa.launchpad.net (91.189.95.83)] [Connected to storage.googl                                                                               Hit:2 http://dl.google.com/linux/chrome/deb stable Release
+0% [Waiting for headers] [Connected to storage.googleapis.com (172.217.163.80)]                                                                               Hit:3 http://ppa.launchpad.net/chrdevs/figma/ubuntu bionic InRelease
+0% [Connecting to ppa.launchpad.net (91.189.95.83)] [Connected to storage.googl0% [Release.gpg gpgv 943 B] [Connecting to ppa.launchpad.net (91.189.95.83)] [C                                                                               Hit:4 http://linux.teamviewer.com/deb stable InRelease
+0% [Release.gpg gpgv 943 B] [Connecting to ppa.launchpad.net (91.189.95.83)] [C                                                                               Hit:5 http://apt.insync.io/mint tina InRelease
+                                                                               Hit:6 http://archive.canonical.com/ubuntu bionic InRelease
+0% [Release.gpg gpgv 943 B] [Connecting to ppa.launchpad.net (2001:67c:1560:8000% [Release.gpg gpgv 943 B] [Connecting to ppa.launchpad.net (2001:67c:1560:8000% [Connecting to ppa.launchpad.net (2001:67c:1560:8008::15)] [Waiting for head0% [3 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (2001:67c:1560:8                                                                               Ign:9 https://storage.googleapis.com/download.dartlang.org/linux/debian stable InRelease
+0% [3 InRelease gpgv 15.9 kB] [Connecting to ppa.launchpad.net (2001:67c:1560:80% [Connecting to tracker-api.toptal.com] [Connecting to ppa.launchpad.net (2000% [Connecting to tracker-api.toptal.com] [4 InRelease gpgv 9,388 B] [Connectin                                                                               Hit:10 https://storage.googleapis.com/download.dartlang.org/linux/debian stable Release
+0% [Connecting to tracker-api.toptal.com] [4 InRelease gpgv 9,388 B] [Connectin                                                                               Get:11 http://repository.spotify.com stable InRelease [3,316 B]
+0% [Connecting to tracker-api.toptal.com] [4 InRelease gpgv 9,388 B] [Waiting f                                                                               Hit:12 http://ppa.launchpad.net/gezakovacs/ppa/ubuntu bionic InRelease
+                                                                               Hit:13 http://archive.ubuntu.com/ubuntu bionic InRelease
+0% [Connecting to tracker-api.toptal.com] [4 InRelease gpgv 9,388 B] [Connectin0% [Connecting to tracker-api.toptal.com] [Connecting to ppa.launchpad.net (91.0% [Connecting to tracker-api.toptal.com] [5 InRelease gpgv 5,486 B] [Connectin0% [Connecting to tracker-api.toptal.com (2606:4700:10::6816:2bb5)] [5 InReleas0% [Connecting to tracker-api.toptal.com (2606:4700:10::6816:2bb5)] [Connecting0% [Connecting to tracker-api.toptal.com (2606:4700:10::6816:2bb5)] [6 InReleas                                                                               Get:14 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.20% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.2                                                                               Hit:16 http://packages.microsoft.com/repos/vscode stable InRelease
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.20% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.2                                                                               Hit:18 http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic InRelease
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.2                                                                               Hit:19 https://packages.microsoft.com/ubuntu/19.04/prod disco InRelease
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.2                                                                               Get:15 http://archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.2                                                                               Hit:20 https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017 xenial InRelease
+0% [Connected to tracker-api.toptal.com (104.22.43.181)] [6 InRelease gpgv 10.20% [Connected to tracker-api.toptal.com (104.22.43.181)] [Connected to download0% [Connected to tracker-api.toptal.com (104.22.43.181)] [Release.gpg gpgv 941 0% [Waiting for headers] [Release.gpg gpgv 941 B] [Connected to download.docker0% [Waiting for headers] [Release.gpg gpgv 941 B] [Connected to download.docker0% [Waiting for headers] [Connected to download.docker.com (13.227.237.106)] [W0% [Waiting for headers] [12 InRelease gpgv 15.4 kB] [Connected to download.doc0% [12 InRelease gpgv 15.4 kB] [Connected to download.docker.com (13.227.237.100% [12 InRelease gpgv 15.4 kB] [Connected to download.docker.com (13.227.237.100% [Connected to download.docker.com (13.227.237.106)] [Waiting for headers] [10% [13 InRelease gpgv 242 kB] [Connected to download.docker.com (13.227.237.1060% [Connecting to s3.amazonaws.com] [13 InRelease gpgv 242 kB] [Connected to do0% [Connected to s3.amazonaws.com (52.216.163.141)] [13 InRelease gpgv 242 kB] 0% [Connected to s3.amazonaws.com (52.216.163.141)] [Connected to download.dock0% [Connected to s3.amazonaws.com (52.216.163.141)] [16 InRelease gpgv 3,959 B]0% [Connected to s3.amazonaws.com (52.216.163.141)] [16 InRelease gpgv 3,959 B]                                                                               Ign:22 http://packages.linuxmint.com tina InRelease
+0% [Connected to s3.amazonaws.com (52.216.163.141)] [16 InRelease gpgv 3,959 B]0% [Connected to s3.amazonaws.com (52.216.163.141)] [Connected to download.dock0% [Connected to s3.amazonaws.com (52.216.163.141)] [11 InRelease gpgv 3,316 B]                                                                               Hit:23 http://packages.linuxmint.com tina Release
+0% [Connected to s3.amazonaws.com (52.216.163.141)] [11 InRelease gpgv 3,316 B]0% [Connected to s3.amazonaws.com (52.216.163.141)] [Connected to download.dock0% [Connected to s3.amazonaws.com (52.216.163.141)] [18 InRelease gpgv 15.9 kB]0% [Waiting for headers] [Connected to download.docker.com (13.227.237.106)] [10% [Waiting for headers] [19 InRelease gpgv 3,997 B] [Connected to download.doc                                                                               Hit:7 https://s3.amazonaws.com/toptracker/desktop/builds debian/ InRelease
+0% [19 InRelease gpgv 3,997 B] [Connected to download.docker.com (13.227.237.100% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 53.3 kB/880% [20 InRelease gpgv 3,994 B] [Connected to download.docker.com (13.227.237.100% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 53.3 kB/880% [14 InRelease gpgv 88.7 kB] [Connected to download.docker.com (13.227.237.100% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 53.3 kB/880% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.106                                                                               Get:24 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.5 kB]
+0% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.1060% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.106                                                                               Get:25 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42.1 kB]
+                                                                               Get:26 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+0% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.1060% [24 Components-amd64 store 47.4 kB] [Release.gpg gpgv 24.2 kB] [Connected to0% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.1060% [25 Components-amd64 store 55.9 kB] [Release.gpg gpgv 24.2 kB] [Connected to0% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.1060% [26 Components-amd64 store 2,541 B] [Release.gpg gpgv 24.2 kB] [Connected to0% [Release.gpg gpgv 24.2 kB] [Connected to download.docker.com (13.227.237.1060% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 56.2 kB/880% [7 InRelease gpgv 1,765 B] [Connected to download.docker.com (13.227.237.1060% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 56.2 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 60.5 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 64.9 kB/88                                                                               Hit:28 https://repo.skype.com/deb stable InRelease
+0% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 64.9 kB/880% [28 InRelease gpgv 4,487 B] [Connected to download.docker.com (13.227.237.100% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 67.8 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 67.8 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 67.8 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 70.7 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 73.6 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 76.5 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 76.5 kB/880% [Connected to download.docker.com (13.227.237.106)] [15 InRelease 79.3 kB/880% [Waiting for headers] [15 InRelease 83.7 kB/88.7 kB 94%]        21.3 kB/s 0s                                                                               Hit:29 https://download.docker.com/linux/debian buster InRelease
+0% [15 InRelease 85.1 kB/88.7 kB 96%]                              21.3 kB/s 0s0% [29 InRelease gpgv 44.4 kB] [15 InRelease 85.1 kB/88.7 kB 96%]  21.3 kB/s 0s0% [15 InRelease 85.1 kB/88.7 kB 96%]                              21.3 kB/s 0s0% [15 InRelease 88.0 kB/88.7 kB 99%]                              21.3 kB/s 0s0% [15 InRelease 88.0 kB/88.7 kB 99%]                              21.3 kB/s 0s0% [Working]                                                       21.3 kB/s 0s0% [15 InRelease gpgv 88.7 kB] [Connecting to archive.ubuntu.com (91.189.88.1520% [Waiting for headers]                                          21.3 kB/s 27s                                                                               Get:17 http://archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+0% [17 InRelease 2,604 B/74.6 kB 3%]                              21.3 kB/s 30s0% [17 InRelease 14.2 kB/74.6 kB 19%]                             21.3 kB/s 30s0% [17 InRelease 14.2 kB/74.6 kB 19%]                        5,545 B/s 1min 55s0% [17 InRelease 30.1 kB/74.6 kB 40%]                        5,545 B/s 1min 53s0% [17 InRelease 30.1 kB/74.6 kB 40%]                        5,545 B/s 1min 53s0% [17 InRelease 30.1 kB/74.6 kB 40%]                        5,545 B/s 1min 53s0% [17 InRelease 31.6 kB/74.6 kB 42%]                        5,545 B/s 1min 52s0% [17 InRelease 34.5 kB/74.6 kB 46%]                        5,545 B/s 1min 52s0% [17 InRelease 34.5 kB/74.6 kB 46%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        5,545 B/s 1min 52s0% [17 InRelease 35.9 kB/74.6 kB 48%]                        3,611 B/s 2min 52s0% [Working]                                                 3,611 B/s 2min 41s0% [17 InRelease gpgv 74.6 kB]                               3,611 B/s 2min 41s49% [Connecting to archive.ubuntu.com (91.189.88.152)]       3,611 B/s 2min 43s49% [Waiting for headers]                                    3,611 B/s 2min 43s                                                                               Get:30 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [307 kB]
+67% [30 Components-amd64 208 kB/307 kB 68%]                  3,611 B/s 1min 45s68% [30 Components-amd64 225 kB/307 kB 73%]                  3,611 B/s 1min 41s68% [30 Components-amd64 225 kB/307 kB 73%]                  3,611 B/s 1min 41s70% [30 Components-amd64 243 kB/307 kB 79%]                  3,611 B/s 1min 36s70% [30 Components-amd64 244 kB/307 kB 80%]                  3,611 B/s 1min 35s70% [30 Components-amd64 244 kB/307 kB 80%]                  3,611 B/s 1min 35s70% [30 Components-amd64 244 kB/307 kB 80%]                  3,611 B/s 1min 35s75% [30 Components-amd64 302 kB/307 kB 98%]                  3,611 B/s 1min 19s75% [30 Components-amd64 304 kB/307 kB 99%]                  3,611 B/s 1min 19s75% [Working]                                                3,611 B/s 1min 18s75% [30 Components-amd64 store 0 B] [Waiting for headers]    3,611 B/s 1min 18s75% [Waiting for headers]                                    3,611 B/s 1min 18s                                                                               Get:31 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [273 kB]
+76% [31 Components-amd64 5,583 B/273 kB 2%]                  3,611 B/s 1min 17s76% [31 Components-amd64 9,927 B/273 kB 4%]                        56.4 kB/s 4s77% [31 Components-amd64 21.5 kB/273 kB 8%]                        56.4 kB/s 4s78% [31 Components-amd64 30.2 kB/273 kB 11%]                       56.4 kB/s 4s79% [31 Components-amd64 41.8 kB/273 kB 15%]                       56.4 kB/s 4s79% [31 Components-amd64 41.8 kB/273 kB 15%]                       56.4 kB/s 4s80% [31 Components-amd64 56.3 kB/273 kB 21%]                       56.4 kB/s 4s82% [31 Components-amd64 75.1 kB/273 kB 27%]                       56.4 kB/s 3s83% [31 Components-amd64 89.6 kB/273 kB 33%]                       56.4 kB/s 3s84% [31 Components-amd64 96.8 kB/273 kB 35%]                       56.4 kB/s 3s84% [31 Components-amd64 96.8 kB/273 kB 35%]                       56.4 kB/s 3s84% [31 Components-amd64 96.8 kB/273 kB 35%]                       56.4 kB/s 3s84% [31 Components-amd64 96.8 kB/273 kB 35%]                       56.4 kB/s 3s85% [31 Components-amd64 113 kB/273 kB 41%]                       17.1 kB/s 10s85% [31 Components-amd64 113 kB/273 kB 41%]                       17.1 kB/s 10s85% [31 Components-amd64 113 kB/273 kB 41%]                       17.1 kB/s 10s87% [31 Components-amd64 140 kB/273 kB 51%]                        17.1 kB/s 8s88% [31 Components-amd64 143 kB/273 kB 52%]                        17.1 kB/s 8s89% [31 Components-amd64 155 kB/273 kB 57%]                        17.1 kB/s 7s89% [31 Components-amd64 163 kB/273 kB 60%]                        17.1 kB/s 7s89% [31 Components-amd64 163 kB/273 kB 60%]                        17.1 kB/s 7s89% [31 Components-amd64 163 kB/273 kB 60%]                        17.1 kB/s 7s91% [31 Components-amd64 185 kB/273 kB 68%]                        17.1 kB/s 5s92% [31 Components-amd64 194 kB/273 kB 71%]                        17.1 kB/s 5s92% [31 Components-amd64 194 kB/273 kB 71%]                        17.1 kB/s 5s92% [31 Components-amd64 198 kB/273 kB 73%]                        14.2 kB/s 6s92% [31 Components-amd64 198 kB/273 kB 73%]                        14.2 kB/s 6s92% [31 Components-amd64 198 kB/273 kB 73%]                        14.2 kB/s 6s95% [31 Components-amd64 224 kB/273 kB 82%]                        14.2 kB/s 4s95% [31 Components-amd64 224 kB/273 kB 82%]                        14.2 kB/s 4s95% [31 Components-amd64 231 kB/273 kB 85%]                        14.2 kB/s 3s95% [31 Components-amd64 231 kB/273 kB 85%]                        14.2 kB/s 3s97% [31 Components-amd64 255 kB/273 kB 93%]                        14.2 kB/s 2s97% [31 Components-amd64 255 kB/273 kB 93%]                        14.2 kB/s 2s98% [31 Components-amd64 263 kB/273 kB 96%]                        14.2 kB/s 1s99% [Working]                                                      14.2 kB/s 0s99% [31 Components-amd64 store 0 B] [Connecting to archive.ubuntu.com (91.189.899% [Connecting to archive.ubuntu.com (91.189.88.142)]             14.2 kB/s 0s99% [Connecting to archive.ubuntu.com (2001:67c:1562::18)]         14.2 kB/s 0s99% [Connecting to archive.ubuntu.com (2001:67c:1360:8001::23)]    14.2 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s                                                                               Get:32 http://archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+99% [32 Components-amd64 2,468 B/2,468 B 100%]                     11.8 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s99% [32 Components-amd64 store 0 B] [Waiting for headers]          11.8 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s99% [Waiting for headers]                                          11.8 kB/s 0s                                                                               Get:33 http://archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,980 B]
+99% [33 Components-amd64 1,242 B/7,980 B 16%]                      11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s100% [33 Components-amd64 store 0 B]                               11.8 kB/s 0s100% [Working]                                                     11.8 kB/s 0s                                                                               Fetched 638 kB in 52s (12.2 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 6%Reading package lists... 6%Reading package lists... 7%Reading package lists... 7%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 8%Reading package lists... 12%Reading package lists... 23%Reading package lists... 32%Reading package lists... 32%Reading package lists... 33%Reading package lists... 48%Reading package lists... 56%Reading package lists... 56%Reading package lists... 68%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 77%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 86%Reading package lists... 89%Reading package lists... 89%Reading package lists... 90%Reading package lists... 90%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 92%Reading package lists... 94%Reading package lists... 94%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-get instal apache2
+E: Invalid operation instal
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-get instal apache2[Cl apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 61%Building dependency tree... 80%Building dependency tree... 97%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap
+0 upgraded, 8 newly installed, 0 to remove and 255 not upgraded.
+Need to get 1,604 kB of archives.
+After this operation, 6,497 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Connecting to archive.ubuntu.com (91.189.88.142)]                                                     0% [Waiting for headers]0% [Waiting for headers]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]0% [1 libapr1 1,166 B/90.9 kB 1%]                          187 B/s 2h 22min 50s0% [1 libapr1 1,166 B/90.9 kB 1%]                          187 B/s 2h 22min 50s0% [1 libapr1 1,166 B/90.9 kB 1%]                          187 B/s 2h 22min 50s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                          187 B/s 2h 22min 19s0% [1 libapr1 6,958 B/90.9 kB 8%]                             962 B/s 27min 40s0% [1 libapr1 6,958 B/90.9 kB 8%]                             962 B/s 27min 40s1% [1 libapr1 11.3 kB/90.9 kB 12%]                            962 B/s 27min 35s1% [1 libapr1 12.8 kB/90.9 kB 14%]                            962 B/s 27min 34s1% [1 libapr1 12.8 kB/90.9 kB 14%]                            962 B/s 27min 34s1% [1 libapr1 12.8 kB/90.9 kB 14%]                            962 B/s 27min 34s3% [1 libapr1 53.3 kB/90.9 kB 59%]                            962 B/s 26min 51s3% [1 libapr1 53.3 kB/90.9 kB 59%]                            962 B/s 26min 51s3% [1 libapr1 53.3 kB/90.9 kB 59%]                            962 B/s 26min 51s7% [Working]                                                  962 B/s 26min 12s                                                                               Get:2 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+7% [2 libaprutil1 2,614 B/84.4 kB 3%]                         962 B/s 26min 10s14% [Working]                                                 962 B/s 24min 45s                                                                               Get:3 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 [10.6 kB]
+14% [3 libaprutil1-dbd-sqlite3 2,615 B/10.6 kB 25%]           962 B/s 24min 42s17% [Waiting for headers]                                     962 B/s 24min 34s                                                                               Get:4 http://archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8,764 B]
+17% [4 libaprutil1-ldap 2,616 B/8,764 B 30%]                  962 B/s 24min 31s20% [Working]                                                 962 B/s 24min 24s                                                                               Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubuntu4.13 [1,070 kB]
+20% [5 apache2-bin 2,611 B/1,070 kB 0%]                       962 B/s 24min 22s36% [5 apache2-bin 328 kB/1,070 kB 31%]                       962 B/s 18min 43s76% [Working]                                                       202 kB/s 1s                                                                               Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ubuntu4.13 [83.8 kB]
+76% [6 apache2-utils 6,958 B/83.8 kB 8%]                            202 kB/s 1s82% [Waiting for headers]                                           202 kB/s 1s                                                                               Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubuntu4.13 [160 kB]
+83% [7 apache2-data 9,853 B/160 kB 6%]                              202 kB/s 1s93% [Working]                                                       202 kB/s 0s                                                                               Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.13 [95.1 kB]
+93% [8 apache2 4,096 B/95.1 kB 4%]                                  202 kB/s 0s100% [Working]                                                      202 kB/s 0s                                                                               Fetched 1,604 kB in 19s (84.5 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 350851 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../4-apache2-bin_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../5-apache2-utils_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../6-apache2-data_2.4.29-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../7-apache2_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.13) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Setting up apache2-data (2.4.29-1ubuntu4.13) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.13) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.13) ...
+Setting up apache2 (2.4.29-1ubuntu4.13) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.33) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ ifconfig\[K
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:f0:4c:7e:3e  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 3835  bytes 1305737 (1.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3835  bytes 1305737 (1.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.10  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::5e86:252:916e:6148  prefixlen 64  scopeid 0x20<link>
+        ether 2c:33:7a:0a:23:2f  txqueuelen 1000  (Ethernet)
+        RX packets 103760  bytes 115470365 (115.4 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 50854  bytes 10472477 (10.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-get install php5
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 89%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package php5 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'php5' has no installation candidate
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-get install php5[K7
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 89%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package php7
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-g[K[K install php7
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 89%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package php7
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt install php7[K[1@-[1@g[1@e[1@t
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 89%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libapache2-mod-php7.2 php7.2 php7.2-cli php7.2-common php7.2-json
+  php7.2-mbstring php7.2-mysql php7.2-opcache php7.2-readline php7.2-sqlite3
+  php7.2-xml
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php7.2 php php7.2
+The following packages will be upgraded:
+  php7.2-cli php7.2-common php7.2-json php7.2-mbstring php7.2-mysql
+  php7.2-opcache php7.2-readline php7.2-sqlite3 php7.2-xml
+9 upgraded, 3 newly installed, 0 to remove and 246 not upgraded.
+Need to get 4,591 kB of archives.
+After this operation, 4,893 kB of additional disk space will be used.
+Do you want to continue? [Y/n] t y
+0% [Working]0% [Connecting to archive.ubuntu.com]0% [Connecting to archive.ubuntu.com]0% [Connecting to archive.ubuntu.com]0% [Connecting to archive.ubuntu.com]0% [Connecting to archive.ubuntu.com (91.189.88.152)]0% [Connecting to archive.ubuntu.com (91.189.88.142)]                                                     0% [Waiting for headers]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-mysql amd64 7.2.24-0ubuntu0.18.04.3 [117 kB]
+0% [1 php7.2-mysql 1,165 B/117 kB 1%]0% [1 php7.2-mysql 20.0 kB/117 kB 17%]0% [1 php7.2-mysql 20.0 kB/117 kB 17%]0% [1 php7.2-mysql 20.0 kB/117 kB 17%]0% [1 php7.2-mysql 21.4 kB/117 kB 18%]                      3,511 B/s 21min 41s0% [1 php7.2-mysql 27.2 kB/117 kB 23%]                      3,511 B/s 21min 39s1% [1 php7.2-mysql 30.1 kB/117 kB 26%]                      3,511 B/s 21min 38s1% [1 php7.2-mysql 46.1 kB/117 kB 39%]                      3,511 B/s 21min 34s1% [1 php7.2-mysql 47.5 kB/117 kB 40%]                      3,511 B/s 21min 34s1% [1 php7.2-mysql 59.1 kB/117 kB 50%]                      3,511 B/s 21min 30s1% [1 php7.2-mysql 62.0 kB/117 kB 53%]                      3,511 B/s 21min 29s1% [1 php7.2-mysql 62.0 kB/117 kB 53%]                      3,511 B/s 21min 29s2% [1 php7.2-mysql 98.2 kB/117 kB 84%]                      3,511 B/s 21min 19s2% [1 php7.2-mysql 103 kB/117 kB 87%]                       3,511 B/s 21min 18s2% [1 php7.2-mysql 108 kB/117 kB 92%]                       3,511 B/s 21min 16s2% [1 php7.2-mysql 114 kB/117 kB 97%]                       3,511 B/s 21min 15s4% [Working]                                                3,511 B/s 21min 14s4% [Waiting for headers]                                     15.3 kB/s 4min 53s                                                                               Get:2 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-opcache amd64 7.2.24-0ubuntu0.18.04.3 [165 kB]
+4% [2 php7.2-opcache 12.7 kB/165 kB 8%]                      15.3 kB/s 4min 52s4% [2 php7.2-opcache 14.2 kB/165 kB 9%]                      15.3 kB/s 4min 52s6% [2 php7.2-opcache 118 kB/165 kB 72%]                      15.3 kB/s 4min 45s6% [2 php7.2-opcache 118 kB/165 kB 72%]                      15.3 kB/s 4min 45s6% [2 php7.2-opcache 118 kB/165 kB 72%]                      15.3 kB/s 4min 45s6% [2 php7.2-opcache 120 kB/165 kB 73%]                      15.3 kB/s 4min 45s6% [2 php7.2-opcache 139 kB/165 kB 84%]                      15.3 kB/s 4min 44s6% [2 php7.2-opcache 139 kB/165 kB 84%]                      15.3 kB/s 4min 44s6% [2 php7.2-opcache 139 kB/165 kB 84%]                      15.3 kB/s 4min 44s8% [Working]                                                 15.3 kB/s 4min 42s8% [Waiting for headers]                                     15.3 kB/s 4min 42s8% [Waiting for headers]                                     15.3 kB/s 4min 42s                                                                               Get:3 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-json amd64 7.2.24-0ubuntu0.18.04.3 [18.9 kB]
+8% [3 php7.2-json 1,167 B/18.9 kB 6%]                        15.3 kB/s 4min 42s10% [Working]                                                15.3 kB/s 4min 41s                                                                               Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-readline amd64 7.2.24-0ubuntu0.18.04.3 [12.2 kB]
+10% [4 php7.2-readline 1,167 B/12.2 kB 10%]                  30.1 kB/s 2min 22s10% [4 php7.2-readline 11.3 kB/12.2 kB 93%]                  30.1 kB/s 2min 22s10% [4 php7.2-readline 11.3 kB/12.2 kB 93%]                  30.1 kB/s 2min 22s10% [4 php7.2-readline 11.3 kB/12.2 kB 93%]                  30.1 kB/s 2min 22s12% [Working]                                                30.1 kB/s 2min 22s                                                                               Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 php7.2-mbstring amd64 7.2.24-0ubuntu0.18.04.3 [484 kB]
+12% [5 php7.2-mbstring 2,613 B/484 kB 1%]                    30.1 kB/s 2min 21s12% [5 php7.2-mbstring 5,509 B/484 kB 1%]                    30.1 kB/s 2min 21s12% [5 php7.2-mbstring 5,509 B/484 kB 1%]                    30.1 kB/s 2min 21s12% [5 php7.2-mbstring 5,509 B/484 kB 1%]                    30.1 kB/s 2min 21s13% [5 php7.2-mbstring 48.9 kB/484 kB 10%]                   30.1 kB/s 2min 20s13% [5 php7.2-mbstring 48.9 kB/484 kB 10%]                   30.1 kB/s 2min 20s13% [5 php7.2-mbstring 69.2 kB/484 kB 14%]                   30.1 kB/s 2min 19s13% [5 php7.2-mbstring 69.2 kB/484 kB 14%]                   30.1 kB/s 2min 19s13% [5 php7.2-mbstring 69.2 kB/484 kB 14%]                   30.1 kB/s 2min 19s13% [5 php7.2-mbstring 69.2 kB/484 kB 14%]                   12.8 kB/s 5min 28s14% [5 php7.2-mbstring 96.7 kB/484 kB 20%]                   12.8 kB/s 5min 26s14% [5 php7.2-mbstring 96.7 kB/484 kB 20%]                   12.8 kB/s 5min 26s14% [5 php7.2-mbstring 111 kB/484 kB 23%]                    12.8 kB/s 5min 25s14% [5 php7.2-mbstring 127 kB/484 kB 26%]                    12.8 kB/s 5min 24s15% [5 php7.2-mbstring 139 kB/484 kB 29%]                    12.8 kB/s 5min 23s15% [5 php7.2-mbstring 150 kB/484 kB 31%]                    12.8 kB/s 5min 22s15% [5 php7.2-mbstring 156 kB/484 kB 32%]                    12.8 kB/s 5min 22s15% [5 php7.2-mbstring 165 kB/484 kB 34%]                    12.8 kB/s 5min 21s15% [5 php7.2-mbstring 172 kB/484 kB 36%]                    12.8 kB/s 5min 20s15% [5 php7.2-mbstring 185 kB/484 kB 38%]                    12.8 kB/s 5min 19s15% [5 php7.2-mbstring 187 kB/484 kB 39%]                    12.8 kB/s 5min 19s16% [5 php7.2-mbstring 200 kB/484 kB 41%]                     21.7 kB/s 3min 8s16% [5 php7.2-mbstring 211 kB/484 kB 44%]                     21.7 kB/s 3min 7s16% [5 php7.2-mbstring 211 kB/484 kB 44%]                     21.7 kB/s 3min 7s16% [5 php7.2-mbstring 215 kB/484 kB 45%]                     21.7 kB/s 3min 7s16% [5 php7.2-mbstring 215 kB/484 kB 45%]                     21.7 kB/s 3min 7s16% [5 php7.2-mbstring 229 kB/484 kB 47%]                     21.7 kB/s 3min 6s16% [5 php7.2-mbstring 239 kB/484 kB 49%]                     21.7 kB/s 3min 6s16% [5 php7.2-mbstring 242 kB/484 kB 50%]                     21.7 kB/s 3min 6s16% [5 php7.2-mbstring 242 kB/484 kB 50%]                     21.7 kB/s 3min 6s17% [5 php7.2-mbstring 259 kB/484 kB 53%]                     21.7 kB/s 3min 5s17% [5 php7.2-mbstring 259 kB/484 kB 53%]                     21.7 kB/s 3min 5s17% [5 php7.2-mbstring 276 kB/484 kB 57%]                     21.7 kB/s 3min 4s17% [5 php7.2-mbstring 276 kB/484 kB 57%]                    12.8 kB/s 5min 13s17% [5 php7.2-mbstring 294 kB/484 kB 61%]                    12.8 kB/s 5min 12s17% [5 php7.2-mbstring 294 kB/484 kB 61%]                    12.8 kB/s 5min 12s17% [5 php7.2-mbstring 305 kB/484 kB 63%]                    12.8 kB/s 5min 11s17% [5 php7.2-mbstring 308 kB/484 kB 64%]                    12.8 kB/s 5min 11s18% [5 php7.2-mbstring 314 kB/484 kB 65%]                    12.8 kB/s 5min 10s18% [5 php7.2-mbstring 323 kB/484 kB 67%]                     12.8 kB/s 5min 9s18% [5 php7.2-mbstring 323 kB/484 kB 67%]                     12.8 kB/s 5min 9s18% [5 php7.2-mbstring 323 kB/484 kB 67%]                     12.8 kB/s 5min 9s18% [5 php7.2-mbstring 339 kB/484 kB 70%]                     12.8 kB/s 5min 8s18% [5 php7.2-mbstring 339 kB/484 kB 70%]                     12.8 kB/s 5min 8s18% [5 php7.2-mbstring 341 kB/484 kB 71%]                     12.8 kB/s 5min 8s18% [5 php7.2-mbstring 341 kB/484 kB 71%]                     10.8 kB/s 6min 3s18% [5 php7.2-mbstring 356 kB/484 kB 74%]                     10.8 kB/s 6min 2s18% [5 php7.2-mbstring 356 kB/484 kB 74%]                     10.8 kB/s 6min 2s19% [5 php7.2-mbstring 373 kB/484 kB 77%]                     10.8 kB/s 6min 0s19% [5 php7.2-mbstring 382 kB/484 kB 79%]                    10.8 kB/s 5min 59s19% [5 php7.2-mbstring 391 kB/484 kB 81%]                    10.8 kB/s 5min 58s19% [5 php7.2-mbstring 404 kB/484 kB 83%]                    10.8 kB/s 5min 57s19% [5 php7.2-mbstring 421 kB/484 kB 87%]                    10.8 kB/s 5min 56s20% [5 php7.2-mbstring 444 kB/484 kB 92%]                    10.8 kB/s 5min 53s20% [5 php7.2-mbstring 473 kB/484 kB 98%]                    10.8 kB/s 5min 51s22% [Working]                                                10.8 kB/s 5min 50s                                                                               Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-sqlite3 amd64 7.2.24-0ubuntu0.18.04.3 [25.8 kB]
+22% [6 php7.2-sqlite3 2,615 B/25.8 kB 10%]                   10.8 kB/s 5min 49s24% [Working]                                                10.8 kB/s 5min 47s                                                                               Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-xml amd64 7.2.24-0ubuntu0.18.04.3 [107 kB]
+24% [7 php7.2-xml 2,613 B/107 kB 2%]                         10.8 kB/s 5min 47s28% [Working]                                                10.8 kB/s 5min 37s                                                                               Get:8 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-cli amd64 7.2.24-0ubuntu0.18.04.3 [1,409 kB]
+28% [8 php7.2-cli 2,611 B/1,409 kB 0%]                       46.0 kB/s 1min 19s38% [8 php7.2-cli 580 kB/1,409 kB 41%]                        46.0 kB/s 1min 6s54% [Working]                                                     46.0 kB/s 48s                                                                               Get:9 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-common amd64 7.2.24-0ubuntu0.18.04.3 [887 kB]
+54% [9 php7.2-common 9,853 B/887 kB 1%]                           46.0 kB/s 48s71% [Waiting for headers]                                         46.0 kB/s 29s                                                                               Get:10 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libapache2-mod-php7.2 amd64 7.2.24-0ubuntu0.18.04.3 [1,352 kB]
+71% [10 libapache2-mod-php7.2 4,096 B/1,352 kB 0%]                46.0 kB/s 29s96% [Working]                                                      46.0 kB/s 0s                                                                               Get:11 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2 all 7.2.24-0ubuntu0.18.04.3 [9,244 B]
+97% [11 php7.2 4,096 B/9,244 B 44%]                                46.0 kB/s 0s98% [Working]                                                      46.0 kB/s 0s98% [Waiting for headers]                                          46.0 kB/s 0s                                                                               Get:12 http://archive.ubuntu.com/ubuntu bionic/main amd64 php all 1:7.2+60ubuntu1 [3,084 B]
+98% [12 php 1,169 B/3,084 B 38%]                                   46.0 kB/s 0s100% [Working]                                                     46.0 kB/s 0s                                                                               Fetched 4,591 kB in 52s (88.1 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 351550 files and directories currently installed.)
+Preparing to unpack .../00-php7.2-mysql_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-mysql (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../01-php7.2-opcache_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-opcache (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../02-php7.2-json_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-json (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../03-php7.2-readline_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-readline (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../04-php7.2-mbstring_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-mbstring (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../05-php7.2-sqlite3_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-sqlite3 (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../06-php7.2-xml_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-xml (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../07-php7.2-cli_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-cli (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Preparing to unpack .../08-php7.2-common_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking php7.2-common (7.2.24-0ubuntu0.18.04.3) over (7.2.24-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../09-libapache2-mod-php7.2_7.2.24-0ubuntu0.18.04.3_amd64.deb ...
+Unpacking libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+Selecting previously unselected package php7.2.
+Preparing to unpack .../10-php7.2_7.2.24-0ubuntu0.18.04.3_all.deb ...
+Unpacking php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+Selecting previously unselected package php.
+Preparing to unpack .../11-php_1%3a7.2+60ubuntu1_all.deb ...
+Unpacking php (1:7.2+60ubuntu1) ...
+Setting up php7.2-common (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-sqlite3 (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-mbstring (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-readline (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-json (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-opcache (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-mysql (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-xml (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php7.2-cli (7.2.24-0ubuntu0.18.04.3) ...
+Setting up libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.2
+Setting up php7.2 (7.2.24-0ubuntu0.18.04.3) ...
+Setting up php (1:7.2+60ubuntu1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo /etc/init.d [K/apache2 restart
+[....] Restarting apache2 (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ toc[Kuch index.php
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ code index.pp[Khp[K[K[K[K[K[K[K[K[K[K[K[K[K[Katom index.[K[K[K[K[K[K.
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo apt-get install mysql-server
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 61%Building dependency tree... 94%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+mysql-server is already the newest version (5.7.29-0ubuntu0.18.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 246 not upgraded.
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mysql -u root -;[K[[Kp
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mw[Kydql[K[K[Ksql stop
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mysql[K[K[K[K[Ksudo mysqld_safe --skop[K[Kip [K-grad[Knt-tables [A
+2020-03-29T13:05:33.872605Z mysqld_safe Logging to syslog.
+2020-03-29T13:05:33.898280Z mysqld_safe Logging to '/var/log/mysql/error.log'.
+2020-03-29T13:05:33.917022Z mysqld_safe Directory '/var/run/mysqld' for UNIX socket file don't exists.
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mysql -u root
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sc[Kudo mysql restart
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo mysql restart[K[K[K[K[K[K[Kstart
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ chmod 777 /var/run/mysqld/mysqld.sockk
+chmod: cannot access '/var/run/mysqld/mysqld.sock': No such file or directory
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mysql start
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mysql startchmod 777 /var/run/mysqld/mysqld.sockk[A]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ [20Psudo mysql start
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crestart[5Pmysql -u rootsudo mysqld_safe --skip-grant-tables [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pmysql -u root
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sid[K[Kudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.04 sec)
+
+mysql> use mysql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> sh[K[KSLE[K[KELED[KCT * FROM USER[K[K[K[Kuser WHERE user[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kupdate user set authentication_string=password('password') where user='ro ot'; [A[80G[P[79Gooot';[K[A[63G[P[80Gtt';[K[A[62G[P[80G'';[K[A[61G[P[80G;;[K[A[60G[P'[P'[80G  [K[A[58G[P'[P'[1@p'[1@a'[1@s'[1@s'[1@w[80G' ;[A[61G[1@o[80Gt;';[A[62G[1@r[80Go't';[A[63G[1@d[80Got[Kot';[A[64G[P[79Gooot';[K[A[63G[P[80Gtt';[K[A[62G[P[80G'';[K[A[61G[P[80G;;[K[A[60G[P'[P'[80G  [K[A[58G[P'[P'[P)'[1@')[1@1'[1@2'[1@3'[1@4'[80G; 
+Query OK, 1 row affected, 1 warning (0.04 sec)
+Rows matched: 1  Changed: 1  Warnings: 1
+
+mysql> exit
+\Bye
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ \[Ksudo mysqlmysql -u root -psudo service mysql start[8Pmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo mysql start[Kt
+ERROR 1049 (42000): Unknown database 'start'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mysql stop
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mysql stop[K[K[K[Kstart
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo service mysql start[1Pop[7Pmysql startmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 3
+Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create data[K[K[K[K[K[K[K[K[K[Kuse mysql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> sgiw [K[K[Khow tables/[K;
++---------------------------+
+| Tables_in_mysql           |
++---------------------------+
+| columns_priv              |
+| db                        |
+| engine_cost               |
+| event                     |
+| func                      |
+| general_log               |
+| gtid_executed             |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| innodb_index_stats        |
+| innodb_table_stats        |
+| ndb_binlog_index          |
+| plugin                    |
+| proc                      |
+| procs_priv                |
+| proxies_priv              |
+| server_cost               |
+| servers                   |
+| slave_master_info         |
+| slave_relay_log_info      |
+| slave_worker_info         |
+| slow_log                  |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
+| user                      |
++---------------------------+
+31 rows in set (0.00 sec)
+
+mysql> SELEC[K[K[K[K[Kseel[K[Klect * from user
+    -> ;
++-----------+------------------+-------------+-------------+-------------+-------------+-------------+-----------+-------------+---------------+--------------+-----------+------------+-----------------+------------+------------+--------------+------------+-----------------------+------------------+--------------+-----------------+------------------+------------------+----------------+---------------------+--------------------+------------------+------------+--------------+------------------------+----------+------------+-------------+--------------+---------------+-------------+-----------------+----------------------+-----------------------+-------------------------------------------+------------------+-----------------------+-------------------+----------------+
+| Host      | User             | Select_priv | Insert_priv | Update_priv | Delete_priv | Create_priv | Drop_priv | Reload_priv | Shutdown_priv | Process_priv | File_priv | Grant_priv | References_priv | Index_priv | Alter_priv | Show_db_priv | Super_priv | Create_tmp_table_priv | Lock_tables_priv | Execute_priv | Repl_slave_priv | Repl_client_priv | Create_view_priv | Show_view_priv | Create_routine_priv | Alter_routine_priv | Create_user_priv | Event_priv | Trigger_priv | Create_tablespace_priv | ssl_type | ssl_cipher | x509_issuer | x509_subject | max_questions | max_updates | max_connections | max_user_connections | plugin                | authentication_string                     | password_expired | password_last_changed | password_lifetime | account_locked |
++-----------+------------------+-------------+-------------+-------------+-------------+-------------+-----------+-------------+---------------+--------------+-----------+------------+-----------------+------------+------------+--------------+------------+-----------------------+------------------+--------------+-----------------+------------------+------------------+----------------+---------------------+--------------------+------------------+------------+--------------+------------------------+----------+------------+-------------+--------------+---------------+-------------+-----------------+----------------------+-----------------------+-------------------------------------------+------------------+-----------------------+-------------------+----------------+
+| localhost | root             | Y           | Y           | Y           | Y           | Y           | Y         | Y           | Y             | Y            | Y         | Y          | Y               | Y          | Y          | Y            | Y          | Y                     | Y                | Y            | Y               | Y                | Y                | Y              | Y                   | Y                  | Y                | Y          | Y            | Y                      |          |            |             |              |             0 |           0 |               0 |                    0 | auth_socket           | *A4B6157319038724E3560894F7F932C8886EBFCF | N                | 2020-03-03 19:05:35   |              NULL | N              |
+| localhost | mysql.session    | N           | N           | N           | N           | N           | N         | N           | N             | N            | N         | N          | N               | N          | N          | N            | Y          | N                     | N                | N            | N               | N                | N                | N              | N                   | N                  | N                | N          | N            | N                      |          |            |             |              |             0 |           0 |               0 |                    0 | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | N                | 2020-03-03 19:05:38   |              NULL | Y              |
+| localhost | mysql.sys        | N           | N           | N           | N           | N           | N         | N           | N             | N            | N         | N          | N               | N          | N          | N            | N          | N                     | N                | N            | N               | N                | N                | N              | N                   | N                  | N                | N          | N            | N                      |          |            |             |              |             0 |           0 |               0 |                    0 | mysql_native_password | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE | N                | 2020-03-03 19:05:38   |              NULL | Y              |
+| localhost | debian-sys-maint | Y           | Y           | Y           | Y           | Y           | Y         | Y           | Y             | Y            | Y         | Y          | Y               | Y          | Y          | Y            | Y          | Y                     | Y                | Y            | Y               | Y                | Y                | Y              | Y                   | Y                  | Y                | Y          | Y            | Y                      |          |            |             |              |             0 |           0 |               0 |                    0 | mysql_native_password | *D174EAF854309F28E7BFA68C099285A68550BFB6 | N                | 2020-03-03 19:05:43   |              NULL | N              |
++-----------+------------------+-------------+-------------+-------------+-------------+-------------+-----------+-------------+---------------+--------------+-----------+------------+-----------------+------------+------------+--------------+------------+-----------------------+------------------+--------------+-----------------+------------------+------------------+----------------+---------------------+--------------------+------------------+------------+--------------+------------------------+----------+------------+-------------+--------------+---------------+-------------+-----------------+----------------------+-----------------------+-------------------------------------------+------------------+-----------------------+-------------------+----------------+
+4 rows in set (0.00 sec)
+
+mysql> create user akhil@localhost[34Gost[7@mysql> [34G[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcreate user 'akhil'@'localhost;[K; [K' idenri[K[Ktified by '1234'
+    -> ;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> gratn[K[Knt all pre[Kivila[Keges on * . * to ;[K'akhil;[K'@'localhost';
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> FLUSH [K[K[K[K[Kflush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> exit
+Bye
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ sudo mysqlmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mysql -u root -p[1P-p[1P-p[1P-p[1P-p[1P-pa-pk-ph-pi-pl-p -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5
+Server version: 5.7.29-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database lab;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| lab                |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> use lab;
+Database changed
+mysql> crete[K[Kate table users;
+ERROR 1113 (42000): A table must have at least 1 column
+mysql> create table users;[K  () )n)a)m)e) )v)a)r)c)h)a)r)()))4))))[K3))0))) )n)o)t)n)u))[K)[K )n)u)l)l);))[K,) )u)s)e)r)n)a)m)e) )v)a)r)c)h)a)r)()))[73Gmysql> create table users ( name varchar(30) not null, username varchar(4))0))),) ))[K)[K )n)o) ))[Kt) )n)u)l)l),) ))[K)[K )p)r)i)m)a)r)y))[K)[K)[K)[K)[K)[K)[K)[K,) )i)d) )v)a)r)c)h)a)r))[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[K)[Kl) )p)r)i)m)a)r)y) )k)e)y),) )p)a)s)s)w)o)r)d) )v)a)r)c)h)a)r)()))1))0))0))) )n) [A[122Go [123G)t) )n)u)l)l));
+Query OK, 0 rows affected (0.65 sec)
+
+mysql> insert into users ()[K[Kvalues ();))[K')')A')k')h')i')l') ')R')a')v')i')n')d')t')r')a')')[K')[K')[Kr')a')n')')[K')[K')[K')[K')[K')[K')[K')[K')[K')[K')[K')[K')[K')[K')[KJ')o')g')n') ')')[K')[K')[Kg')n')')[K')[Kh')n') ')D')o')e')',) )')')j')o')')[K')[Ka')d')m')i')n')',) )')')a')d')m')i')n')');
+Query OK, 1 row affected (0.11 sec)
+
+mysql> se[K[Kselect ([K* from users;
++----------+----------+----------+
+| name     | username | password |
++----------+----------+----------+
+| John Doe | admin    | admin    |
++----------+----------+----------+
+1 row in set (0.01 sec)
+
+mysql> quit
+Bye
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ code .[K[K[K[K[K[Katom .
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ mv /var/www/html/index.html[Ki/var/www/html/index.htmn/var/www/html/index.htme/var/www/html/index.htmx/var/www/html/index.htm[1P/var/www/html/index.htm[1P/var/www/html/index.htmd/var/www/html/index.htme/var/www/html/index.htmx/var/www/html/index.htm./var/www/html/index.htmp/var/www/html/index.htmh/var/www/html/index.htmp/var/www/html/index.htm /var/www/html/index.htm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for ghostjson: ********        
+]0;ghostjson@ghost: ~/Documents/lab/cs232/2903[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/2903[00m$ exit
+exit
+
+Script done on 2020-03-29 19:52:43+0530

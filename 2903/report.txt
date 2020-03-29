@@ -1,0 +1,22 @@
+CEC CS 18 c06 31-01-2020
+Akhil Ravindran
+
+--------------------------------
+#1: LAMP Stack t8 3
+---------------------------------
+Command/Shell script/Program name
+
+	sudo apt-get install apache2   // install apache2 server
+	sudo apt-get install mysql-server // install mysql
+	sudo apt-get install php // install php
+
+
+Result:
+---------------
+	
+	Successfully hosted a php web page in the apache server
+	Webpage can be accessed by any device connected to the LAN
+
+	The proof of accessing web page by other device is shown in other_pc1.png and other_pc2.png
+
+---------------------------------
