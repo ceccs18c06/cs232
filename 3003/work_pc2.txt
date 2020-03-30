@@ -1,0 +1,64 @@
+Script started on 2020-03-30 20:43:19+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;jacinth@jacinth-pc: ~/lab[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab[00m$ ftp 192.168.1.5
+Connected to 192.168.1.5.
+220 (vsFTPd 3.0.3)
+Name (192.168.1.5:jacinth): ghojs  stjson
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1000     1000       147925 Jan 10 22:57 2020-01-10 22-57-13.mkv
+drwxrwxr-x    3 1000     1000         4096 Dec 27 19:27 Android
+drwxr-xr-x    2 1000     1000         4096 Mar 26 12:58 Desktop
+drwxr-xr-x   22 1000     1000         4096 Mar 22 17:13 Documents
+drwxr-xr-x   22 1000     1000        12288 Mar 25 13:02 Downloads
+-rw-rw-r--    1 1000     1000        99356 Feb 18 22:10 Magazine Socio.docx
+drwxr-xr-x    2 1000     1000         4096 Dec 06 21:53 Music
+drwxr-xr-x    2 1000     1000        12288 Mar 24 21:55 Pictures
+drwxrwxr-x    3 1000     1000         4096 Feb 22 11:42 Postman
+drwxr-xr-x    3 1000     1000         4096 Jan 04 16:28 Public
+drwxr-xr-x    2 1000     1000         4096 Dec 06 21:53 Templates
+drwxr-xr-x    6 1000     1000         4096 Mar 16 12:53 Videos
+drwx------    2 1000     1000         4096 Mar 05 23:16 Whatsapp-Chat-Analyzer-master
+-rw-rw-r--    1 1000     1000         3743 Mar 05 22:20 Whatsapp-Chat-Analyzer-master.zip
+drwxrwxr-x    2 1000     1000         4096 Dec 07 16:40 build-learnqt-Desktop-Debug
+-rwxr-xr-x    1 1000     1000      1933813 Dec 22 23:23 composer.phar
+drwxrwxr-x   10 1000     1000         4096 Mar 19 16:29 devteam
+drwxr-xr-x    2 1000     1000         4096 Dec 19 11:14 docker-learn
+drwxrwxr-x    8 1000     1000         4096 Dec 27 19:48 flutter
+-rw-rw-r--    1 1000     1000            0 Jan 28 19:28 freelance.txt
+-rw-r--r--    1 1000     1000        13216 Dec 19 11:09 get-docker.sh
+drwxr-xr-x    7 1000     1000         4096 Dec 08 22:04 lb
+drwxrwxr-x    2 1000     1000         4096 Dec 07 16:44 learnqt
+-rwxr-xr-x    1 1000     1000     26683198 Oct 09 01:25 ngrok
+-rw-r--r--    1 1000     1000         3120 May 08  2019 packages-microsoft-prod.deb
+-rw-r--r--    1 1000     1000        39801 Jan 23 22:27 result.txt
+-rw-rw-r--    1 1000     1000        28194 Jan 23 22:25 result_CHN.pdf
+drwxr-xr-x    4 1000     1000         4096 Feb 23 11:38 snap
+drwxr-xr-x    4 1000     1000         4096 Dec 08 14:06 studio3t
+drwxrwxr-x    3 1000     1000         4096 Dec 06 22:46 temp
+drw-rw-r--    2 1000     1000         4096 Jan 04 16:26 test
+drwxrwxr-x    2 1000     1000         4096 Dec 07 16:22 windowlayout
+drwxrwxr-x   41 1000     1000         4096 Mar 25 15:57 workspace
+226 Directory send OK.
+ftp> [Kftp> [Kftp> [Kftp> [Kftp> get reult[K[K[Ksult.txt
+local: result.txt remote: result.txt
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for result.txt (39801 bytes).
+226 Transfer complete.
+39801 bytes received in 0.02 secs (2.1618 MB/s)
+ftp> exit
+221 Goodbye.
+]0;jacinth@jacinth-pc: ~/lab[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab[00m$ ls
+hello.txt  result.txt  work_pc2.txt
+]0;jacinth@jacinth-pc: ~/lab[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab[00m$ rm reu[K[K[K[K[K[Kexit
+exit
+
+Script done on 2020-03-30 20:47:10+0530

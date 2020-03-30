@@ -1,0 +1,28 @@
+CEC CS 18 c06 31-01-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Setting up ftp server (t7)
+---------------------------------
+Command/Shell script/Program name
+
+	sudo apt-get install vsftpd
+	sudo vim /etc/vsftpd   		// to configure ftp server
+
+--------------------------------
+
+Result:
+---------------
+
+	Successfully setup ftp server
+	
+	script of hosting pc is in work.txt and the script file of client pc which is accessing host pc is in work_pc2.txt	
+
+---------------------------------
+
+Remarks:
+-----------
+
+	The Proof of installation of linux os is updated in the /2703 folder (in work.txt) . Please do check it.
+
+------------------------------

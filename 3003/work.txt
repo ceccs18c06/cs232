@@ -1,0 +1,412 @@
+Script started on 2020-03-30 20:33:33+0530
+]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ sudo apt-get install vsftd[Kpd
+[sudo] password for ghostjson: ********        
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 74%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 246 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 334 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 vsftpd amd64 3.0.3-9build1 [115 kB]
+2% [1 vsftpd 2,613 B/115 kB 2%]31% [1 vsftpd 44.6 kB/115 kB 39%]                                 100% [Working]              Fetched 115 kB in 1s (86.9 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 351570 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-9build1_amd64.deb ...
+Unpacking vsftpd (3.0.3-9build1) ...
+Setting up vsftpd (3.0.3-9build1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/vsftpd.service → /lib/systemd/system/vsftpd.service.
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (237-3ubuntu10.33) ...
+]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ sudo vim /tx[K[Ketc/vsftpd.conf
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/etc/vsftpd.conf" 155L, 5850C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Example config file /etc/vsftpd.conf
+#
+# The default compiled in settings are fairly paranoid. This sample file
+# loosens things up a bit, to make the ftp daemon more usable.
+# Please see vsftpd.conf.5 for all compiled in defaults.
+#
+# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+# capabilities.
+#
+#
+# Run standalone?  vsftpd can run either from an inetd or as a standalone
+# daemon started from an initscript.[m
+listen=NO
+[34m#
+# This directive enables listening on IPv6 sockets. By default, listening
+# on the IPv6 "any" address (::) will accept connections from both IPv6
+# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+# sockets. If you want that (perhaps because you want to listen on specific
+# addresses) then you must run two copies of vsftpd with two configuration
+# files.[m
+listen_ipv6=YES
+[34m#[m[24;63H1,1[11CTop[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[96m# Example config file /etc/vsftpd.conf
+#
+# The default compiled in settings are fairly paranoid. This sample file
+# loosens things up a bit, to make the ftp daemon more usable.
+# Please see vsftpd.conf.5 for all compiled in defaults.
+#
+# READ THIS: This example file is NOT an exhaustive list of vsftpd options.
+# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's
+# capabilities.
+#
+#
+# Run standalone?  vsftpd can run either from an inetd or as a standalone
+# daemon started from an initscript.[m
+listen=NO
+[96m#
+# This directive enables listening on IPv6 sockets. By default, listening
+# on the IPv6 "any" address (::) will accept connections from both IPv6
+# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6
+# sockets. If you want that (perhaps because you want to listen on specific
+# addresses) then you must run two copies of vsftpd with two configuration
+# files.[m
+listen_ipv6=YES
+[96m#[m[24;63H1,1[11CTop"/etc/vsftpd.conf" 155L, 5850C[1;1H[?25h[?25l[24;53H~@k[1;1H[24;53H   [2;1H[24;63H2[2;1H[?25h[?25l[24;53H~@k[2;1H[24;53H   [3;1H[24;63H3[3;1H[?25h[?25l[24;53H~@k[3;1H[24;53H   [4;1H[24;63H4[4;1H[?25h[?25l[24;53H~@k[4;1H[24;53H   [5;1H[24;63H5[5;1H[?25h[?25l[24;53H~@k[5;1H[24;53H   [6;1H[24;63H6[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [7;1H[24;63H7[7;1H[?25h[?25l[24;53H~@k[7;1H[24;53H   [8;1H[24;63H8[8;1H[?25h[?25l[24;53H~@k[8;1H[24;53H   [9;1H[24;63H9[9;1H[?25h[?25l[24;53H~@k[9;1H[24;53H   [10;1H[24;63H10,1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [11;1H[24;64H1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [12;1H[24;64H2[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [13;1H[24;64H3[13;1H[?25h[?25l[24;53H~@k[13;1H[24;53H   [14;1H[24;64H4[14;1H[?25h[?25l[24;53H~@k[14;1H[24;53H   [15;1H[24;64H5[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;1H[24;64H6[16;1H[?25h[?25l[24;53H~@k[16;1H[24;53H   [17;1H[24;64H7[17;1H[?25h[?25l[24;53H~@k[17;1H[24;53H   [18;1H[24;64H8[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Allow anonymous FTP? (Disabled by default).[m[24;1H[K[24;63H19,1[11C0%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hanonymous_enable=NO[24;63H[K[24;63H20,1[11C1%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H21,1[11C2%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow local users to log in.[m[24;63H[K[24;63H22,1[11C3%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hlocal_enable=YES[24;63H[K[24;63H23,1[11C3%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H24,1[11C4%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to enable any form of FTP write command.[m[24;63H[K[24;63H25,1[11C5%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#write_enable=YES[m[24;63H[K[24;63H26,1[11C6%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H27,1[11C6%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Default umask for local users is 077. You may wish to change this to 022,[m[24;63H[K[24;63H28,1[11C7%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# if your users expect that (022 is used by most other ftpd's)[m[24;63H[K[24;63H29,1[11C8%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#local_umask=022[m[24;63H[K[24;63H30,1[11C9%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H31,1[11C9%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow the anonymous FTP user to upload files. This only[m[24;63H[K[24;63H32,1[10C10%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# has an effect if the above global write enable is activated. Also, you will[m[24;63H[K[24;63H33,1[10C11%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [17;1H[24;64H2[17;1H[?25h[?25l[24;53H~@k[17;1H[24;53H   [16;1H[24;64H1[16;1H[?25h[?25l[24;53H~@k[16;1H[24;53H   [15;1H[24;64H0[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [14;1H[24;63H29[14;1H[?25h[?25l[24;53H~@k[14;1H[24;53H   [13;1H[24;64H8[13;1H[?25h[?25l[24;53H~@k[13;1H[24;53H   [12;1H[24;64H7[12;1H[?25h[?25l[24;53H~@k[12;1H[24;53H   [11;1H[24;64H6[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;1H[24;64H5[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [10;2H[24;66H2[10;2H[?25h[?25l[24;53H~@k[10;2H[24;53H   [10;3H[24;66H3[10;3H[?25h[?25l[24;53H~@k[10;3H[24;53H   [10;4H[24;66H4[10;4H[?25h[?25l[24;53H~@k[10;4H[24;53H   [10;5H[24;66H5[10;5H[?25h[?25l[24;53H~@k[10;5H[24;53H   [10;6H[24;66H6[10;6H[?25h[?25l[24;53H~@k[10;6H[24;53H   [10;7H[24;66H7[10;7H[?25h[?25l[24;53H~@k[10;7H[24;53H   [10;8H[24;66H8[10;8H[?25h[?25l[24;53H~@k[10;8H[24;53H   [10;9H[24;66H9[10;9H[?25h[?25l[24;53H~@k[10;9H[24;53H   [10;10H[24;66H10[10;10H[?25h[?25l[24;53H~@k[10;10H[24;53H   [10;11H[24;67H1[10;11H[?25h[?25l[24;53H~@k[10;11H[24;53H   [10;12H[24;67H2[10;12H[?25h[?25l[24;53H~@k[10;12H[24;53H   [10;13H[24;67H3[10;13H[?25h[?25l[24;53H~@k[10;13H[24;53H   [10;14H[24;67H4[10;14H[?25h[?25l[24;53H~@k[10;14H[24;53H   [10;15H[24;67H5[10;15H[?25h[?25l[24;53H~@k[10;15H[24;53H   [10;16H[24;67H6[10;16H[?25h[?25l[24;53H~@k[10;16H[24;53H   [10;17H[24;67H7[10;17H[?25h[?25l[24;53H~@k[10;17H[24;53H   [10;18H[24;67H8[10;18H[?25h[?25l[24;53H~@k[10;18H[24;53H   [10;19H[24;67H9[10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [11;1H[24;64H6,1 [11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;19H[24;64H5,19[10;19H[?25h[?25l[24;53H~@k[10;19H[24;53H   [10;19H[?25h[?25l[24;53Hi[10;19H[24;53H [10;19H[24;1H[1m-- INSERT --[m[24;63H[K[24;63H25,19[9C11%[10;19H[?25h[?25l[24;66H20[10;20H[?25h[?25l[10;19H[K[24;66H19[10;19H[?25h[?25l[10;18H[K[24;67H8[10;18H[?25h[?25lY[24;67H9[10;19H[?25h[?25lE[24;66H20[10;20H[?25h[?25lS[24;67H1[10;21H[?25h[?25l[24;64H6,2 [11;2H[?25h[?25l[24;64H7,21[12;21H[?25h[?25l[24;64H8,17[13;17H[?25h[?25l[24;64H9,2 [14;2H[?25h[?25l[24;63H30,21[15;21H[?25h[?25l[24;64H1,18[16;18H[?25h[?25l[24;64H2,2 [17;2H[?25h[?25l[24;64H3,21[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# obviously need to create a directory writable by the FTP user.[m[24;63H[K[24;63H34,21[9C12%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#anon_upload_enable=YES[m[24;63H[K[24;63H35,17[9C12%[18;17H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H36,2[10C13%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this if you want the anonymous FTP user to be able to create[m[24;63H[K[24;63H37,21[9C14%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# new directories.[m[24;63H[K[24;63H38,21[9C15%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#anon_mkdir_write_enable=YES[m[24;63H[K[24;63H39,21[9C15%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H40,21[9C16%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Activate directory messages - messages given to remote users when they[m[24;63H[K[24;63H41,2[10C17%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# go into a certain directory.[m[24;63H[K[24;63H42,21[9C18%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hdirmessage_enable=YES[24;63H[K[24;63H43,19[9C18%[18;19H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H44,21[9C19%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# If enabled, vsftpd will display directory listings with the time[m[24;63H[K[24;63H45,2[10C20%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# in  your  local  time  zone.  The default is to display GMT. The[m[24;63H[K[24;63H46,21[9C21%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# times returned by the MDTM FTP command are also affected by this[m[24;63H[K[24;63H47,21[9C21%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# option.[m[24;63H[K[24;63H48,21[9C22%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Huse_localtime=YES[24;63H[K[24;63H49,2[10C23%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H50,21[9C24%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Activate logging of uploads/downloads.[m[24;63H[K[24;63H51,21[9C25%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hxferlog_enable=YES[24;63H[K[24;63H52,21[9C25%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H53,10[9C26%[18;10H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Make sure PORT transfer connections originate from port 20 (ftp-data).[m[24;63H[K[24;63H54,18[9C27%[18;18H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hconnect_from_port_20=YES[24;63H[K[24;63H55,2[10C28%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H56,21[9C28%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can arrange for uploaded anonymous files to be owned by[m[24;63H[K[24;63H57,19[9C29%[18;19H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# a different user. Note! Using "root" for uploaded files is not[m[24;63H[K[24;63H58,2[10C30%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# recommended![m[24;63H[K[24;63H59,21[9C31%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chown_uploads=YES[m[24;63H[K[24;63H60,21[9C31%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chown_username=whoever[m[24;63H[K[24;63H61,2[10C32%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H62,21[9C33%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may override where the log file goes if you like. The default is shown[m[24;63H[K[24;63H63,21[9C34%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# below.[m[24;63H[K[24;63H64,15[9C34%[18;15H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_file=/var/log/vsftpd.log[m[24;63H[K[24;63H65,19[9C35%[18;19H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H66,21[9C36%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can have your log file in standard ftpd xferlog format.[m[24;63H[K[24;63H67,2[10C37%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Note that the default log file location is /var/log/xferlog in this case.[m[24;63H[K[24;63H68,21[9C37%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_std_format=YES[m[24;63H[K[24;63H69,9[10C38%[18;9H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H70,21[9C39%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out an idle session.[m[24;63H[K[24;63H71,2[10C40%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#idle_session_timeout=600[m[24;63H[K[24;63H72,21[9C40%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H73,21[9C41%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out a data connection.[m[24;63H[K[24;63H74,21[9C42%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#data_connection_timeout=120[m[24;63H[K[24;63H75,2[10C43%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H76,21[9C43%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# It is recommended that you define on your system a unique user which the[m[24;63H[K[24;63H77,21[9C44%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# ftp server can use as a totally isolated and unprivileged user.[m[24;63H[K[24;63H78,2[10C45%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#nopriv_user=ftpsecure[m[24;63H[K[24;63H79,21[9C46%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H80,21[9C46%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Enable this and the server will recognise asynchronous ABOR requests. Not[m[24;63H[K[24;63H81,2[10C47%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# recommended for security (the code is non-trivial). Not enabling it,[m[24;63H[K[24;63H82,21[9C48%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# however, may confuse older FTP clients.[m[24;63H[K[24;63H83,21[9C49%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#async_abor_enable=YES[m[24;63H[K[24;63H84,21[9C50%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H85,2[10C50%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# By default the server will pretend to allow ASCII mode but in fact ignore[m[24;63H[K[24;63H86,21[9C51%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# the request. Turn on the below options to have the server actually do ASCII[m[24;63H[K[24;63H87,21[9C52%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# mangling on files when in ASCII mode.[m[24;63H[K[24;63H88,21[9C53%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Beware that on some FTP servers, ASCII support allows a denial of service[m[24;63H[K[24;63H89,21[9C53%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd[m[24;63H[K[24;63H90,2[10C54%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# predicted this attack and has always been safe, reporting the size of the[m[24;63H[K[24;63H91,21[9C55%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# raw file.[m[24;63H[K[24;63H92,21[9C56%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# ASCII mangling is a horrible feature of the protocol.[m[24;63H[K[24;63H93,21[9C56%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_upload_enable=YES[m[24;63H[K[24;63H94,21[9C57%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_download_enable=YES[m[24;63H[K[24;63H95,21[9C58%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H96,21[9C59%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may fully customise the login banner string:[m[24;63H[K[24;63H97,12[9C59%[18;12H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#ftpd_banner=Welcome to blah FTP service.[m[24;63H[K[24;63H98,21[9C60%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H99,21[9C61%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify a file of disallowed anonymous e-mail addresses. Apparently[m[24;63H[K[24;63H100,21[8C62%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# useful for combatting certain DoS attacks.[m[24;63H[K[24;63H101,2[9C62%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#deny_email_enable=YES[m[24;63H[K[24;63H102,21[8C63%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H103,21[8C64%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#banned_email_file=/etc/vsftpd.banned_emails[m[24;63H[K[24;63H104,2[9C65%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H105,21[8C65%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may restrict local users to their home directories.  See the FAQ for[m[24;63H[K[24;63H106,21[8C66%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# the possible risks in this before using chroot_local_user or[m[24;63H[K[24;63H107,21[8C67%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H108,20[8C68%[18;20H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H109,21[8C68%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H110,2[9C69%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H111,21[8C70%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H112,21[8C71%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H113,21[8C71%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H114,21[8C72%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H115,2[9C73%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# chroot)[m[24;63H[K[24;63H116,21[8C74%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H117,21[8C75%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H118,21[8C75%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H119,21[8C76%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H120,21[8C77%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H121,10[8C78%[18;10H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H122,21[8C78%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H123,21[8C79%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H124,20[8C80%[18;20H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H125,21[8C81%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H126,2[9C81%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H127,21[8C82%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Customization[m[24;63H[K[24;63H128,21[8C83%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H129,21[8C84%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Some of vsftpd's settings don't fit the filesystem layout by[m[24;63H[K[24;63H130,21[8C84%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# default.[m[24;63H[K[24;63H131,21[8C85%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H132,2[9C86%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# This option should be the name of a directory which is empty.  Also, the[m[24;63H[K[24;63H133,16[8C87%[18;16H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# directory should not be writable by the ftp user. This directory is used[m[24;63H[K[24;63H134,2[9C87%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# as a secure chroot() jail at times vsftpd does not require filesystem[m[24;63H[K[24;63H135,21[8C88%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# access.[m[24;63H[K[24;63H136,11[8C89%[18;11H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hsecure_chroot_dir=/var/run/vsftpd/empty[24;63H[K[24;63H137,2[9C90%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H138,21[8C90%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# This string is the name of the PAM service vsftpd will use.[m[24;63H[K[24;63H139,21[8C91%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hpam_service_name=vsftpd[24;63H[K[24;63H140,21[8C92%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H141,10[8C93%[18;10H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# This option specifies the location of the RSA certificate to use for SSL[m[24;63H[K[24;63H142,21[8C93%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# encrypted connections.[m[24;63H[K[24;63H143,2[9C94%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hrsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem[24;63H[K[24;63H144,21[8C95%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hrsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key[24;63H[K[24;63H145,21[8C96%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hssl_enable=NO[24;63H[K[24;63H146,2[9C96%[18;2H[?25h[?25l[1;23r[23;1H
+[1;24r[24;63H[K[24;63H147,21[8C97%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H148,21[8C98%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to indicate that vsftpd use a utf8 filesystem.[m[24;63H[K[24;63H149,21[8C99%[18;21H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[96m#utf8_filesystem=YES[m[24;63H[K[24;63H150,21[8CBot[18;21H[?25h[?25l[24;65H1,14[19;14H[?25h[?25l[24;65H2,1 [20;1H[?25h[?25l[24;65H3,2[21;2H[?25h[?25l[24;65H4,21[22;21H[?25h[?25l[24;65H5[23;21H[?25h[24;1H[K[23;20H[?25l[24;53H^[[23;20H[24;53H  [23;21H[24;63H155,20[8CBot[23;20H[?25h[?25l[24;53H:[23;20H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"/etc/vsftpd.conf" 155L, 5851C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ sudo vim /etc/vsftpd.conf
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"/etc/vsftpd.conf" 155L, 5851C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# Customization
+#
+# Some of vsftpd's settings don't fit the filesystem layout by
+# default.
+#
+# This option should be the name of a directory which is empty.  Also, the
+# directory should not be writable by the ftp user. This directory is used
+# as a secure chroot() jail at times vsftpd does not require filesystem
+# access.[m
+secure_chroot_dir=/var/run/vsftpd/empty
+[34m#
+# This string is the name of the PAM service vsftpd will use.[m
+pam_service_name=vsftpd
+[34m#
+# This option specifies the location of the RSA certificate to use for SSL
+# encrypted connections.[m
+rsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+rsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+ssl_enable=NO
+
+[34m#
+# Uncomment this to indicate that vsftpd use a utf8 filesystem.
+#utf8_filesystem=YES[m[24;63H155,20[8CBot[23;20H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[27m[23m[29m[m[H[2J[?25l[1;1H[96m# Customization
+#
+# Some of vsftpd's settings don't fit the filesystem layout by
+# default.
+#
+# This option should be the name of a directory which is empty.  Also, the
+# directory should not be writable by the ftp user. This directory is used
+# as a secure chroot() jail at times vsftpd does not require filesystem
+# access.[m
+secure_chroot_dir=/var/run/vsftpd/empty
+[96m#
+# This string is the name of the PAM service vsftpd will use.[m
+pam_service_name=vsftpd
+[96m#
+# This option specifies the location of the RSA certificate to use for SSL
+# encrypted connections.[m
+rsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+rsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+ssl_enable=NO
+
+[96m#
+# Uncomment this to indicate that vsftpd use a utf8 filesystem.
+#utf8_filesystem=YES[m[24;63H155,20[8CBot"/etc/vsftpd.conf" 155L, 5851C[23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [22;20H[24;65H4[22;20H[?25h[?25l[24;53H~@k[22;20H[24;53H   [21;1H[24;65H3,1 [21;1H[?25h[?25l[24;53H~@k[21;1H[24;53H   [20;1H[24;65H2,0-1[20;1H[?25h[?25l[24;53H~@k[20;1H[24;53H   [19;13H[24;65H1,13 [19;13H[?25h[?25l[24;53H~@k[19;13H[24;53H   [18;20H[24;65H0,20[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [17;20H[24;64H49[17;20H[?25h[?25l[24;53H~@k[17;20H[24;53H   [16;20H[24;65H8[16;20H[?25h[?25l[24;53H~@k[16;20H[24;53H   [15;20H[24;65H7[15;20H[?25h[?25l[24;53H~@k[15;20H[24;53H   [14;1H[24;65H6,1 [14;1H[?25h[?25l[24;53H~@k[14;1H[24;53H   [13;20H[24;65H5,20[13;20H[?25h[?25l[24;53H~@k[13;20H[24;53H   [12;20H[24;65H4[12;20H[?25h[?25l[24;53H~@k[12;20H[24;53H   [11;1H[24;65H3,1 [11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [10;20H[24;65H2,20[10;20H[?25h[?25l[24;53H~@k[10;20H[24;53H   [9;9H[24;65H1,9 [9;9H[?25h[?25l[24;53H~@k[9;9H[24;53H   [8;20H[24;65H0,20[8;20H[?25h[?25l[24;53H~@k[8;20H[24;53H   [7;20H[24;64H39[7;20H[?25h[?25l[24;53H~@k[7;20H[24;53H   [6;20H[24;65H8[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;1H[K[24;63H137,1[9C99%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;10H[1;23r[1;1H[L[1;24r[1;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H136,10[8C98%[6;10H[?25h[?25l[24;53H~@k[6;10H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H135,20[8C97%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H134,1[9C96%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;15H[1;23r[1;1H[L[1;24r[1;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H133,15[8C96%[6;15H[?25h[?25l[24;53H~@k[6;15H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H132,1[9C95%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H131,20[8C94%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H130,20[8C93%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# (default follows)[m[24;63H[K[24;63H129,20[8C93%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H128,20[8C92%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H127,20[8C91%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# chroot)[m[24;63H[K[24;63H126,1[9C90%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H125,20[8C90%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;19H[1;23r[1;1H[L[1;24r[1;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H124,19[8C89%[6;19H[?25h[?25l[24;53H~@k[6;19H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H123,20[8C88%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H122,20[8C87%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;9H[1;23r[1;1H[L[1;24r[1;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H121,9[9C87%[6;9H[?25h[?25l[24;53H~@k[6;9H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H120,20[8C86%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H119,20[8C85%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H118,20[8C84%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# the possible risks in this before using chroot_local_user or[m[24;63H[K[24;63H117,20[8C84%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# You may restrict local users to their home directories.  See the FAQ for[m[24;63H[K[24;63H116,20[8C83%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H115,1[9C82%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#banned_email_file=/etc/vsftpd.banned_emails[m[24;63H[K[24;63H114,20[8C81%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# (default follows)[m[24;63H[K[24;63H113,20[8C81%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#deny_email_enable=YES[m[24;63H[K[24;63H112,20[8C80%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# useful for combatting certain DoS attacks.[m[24;63H[K[24;63H111,20[8C79%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may specify a file of disallowed anonymous e-mail addresses. Apparently[m[24;63H[K[24;63H110,1[9C78%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H109,20[8C78%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;19H[1;23r[1;1H[L[1;24r[1;1H[96m#ftpd_banner=Welcome to blah FTP service.[m[24;63H[K[24;63H108,19[8C77%[6;19H[?25h[?25l[24;53H~@k[6;19H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# You may fully customise the login banner string:[m[24;63H[K[24;63H107,20[8C76%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H106,20[8C75%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#ascii_download_enable=YES[m[24;63H[K[24;63H105,20[8C75%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#ascii_upload_enable=YES[m[24;63H[K[24;63H104,1[9C74%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# ASCII mangling is a horrible feature of the protocol.[m[24;63H[K[24;63H103,20[8C73%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# raw file.[m[24;63H[K[24;63H102,20[8C72%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# predicted this attack and has always been safe, reporting the size of the[m[24;63H[K[24;63H101,1[9C71%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd[m[24;63H[K[24;63H100,20[8C71%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Beware that on some FTP servers, ASCII support allows a denial of service[m[24;63H[K[24;63H99,20[9C70%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# mangling on files when in ASCII mode.[m[24;63H[K[24;63H98,20[9C69%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;11H[1;23r[1;1H[L[1;24r[1;1H[96m# the request. Turn on the below options to have the server actually do ASCII[m[24;63H[K[24;63H97,11[9C68%[6;11H[?25h[?25l[24;53H~@k[6;11H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# By default the server will pretend to allow ASCII mode but in fact ignore[m[24;63H[K[24;63H96,20[9C68%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H95,20[9C67%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#async_abor_enable=YES[m[24;63H[K[24;63H94,20[9C66%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# however, may confuse older FTP clients.[m[24;63H[K[24;63H93,20[9C65%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# recommended for security (the code is non-trivial). Not enabling it,[m[24;63H[K[24;63H92,20[9C65%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Enable this and the server will recognise asynchronous ABOR requests. Not[m[24;63H[K[24;63H91,20[9C64%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H90,1[10C63%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#nopriv_user=ftpsecure[m[24;63H[K[24;63H89,20[9C62%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# ftp server can use as a totally isolated and unprivileged user.[m[24;63H[K[24;63H88,20[9C62%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# It is recommended that you define on your system a unique user which the[m[24;63H[K[24;63H87,20[9C61%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H86,20[9C60%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#data_connection_timeout=120[m[24;63H[K[24;63H85,1[10C59%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# You may change the default value for timing out a data connection.[m[24;63H[K[24;63H84,20[9C59%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H83,20[9C58%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#idle_session_timeout=600[m[24;63H[K[24;63H82,20[9C57%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# You may change the default value for timing out an idle session.[m[24;63H[K[24;63H81,1[10C56%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H80,20[9C56%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#xferlog_std_format=YES[m[24;63H[K[24;63H79,20[9C55%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Note that the default log file location is /var/log/xferlog in this case.[m[24;63H[K[24;63H78,1[10C54%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# If you want, you can have your log file in standard ftpd xferlog format.[m[24;63H[K[24;63H77,20[9C53%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H76,20[9C53%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#xferlog_file=/var/log/vsftpd.log[m[24;63H[K[24;63H75,1[10C52%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# below.[m[24;63H[K[24;63H74,20[9C51%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# You may override where the log file goes if you like. The default is shown[m[24;63H[K[24;63H73,20[9C50%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H72,20[9C50%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#chown_username=whoever[m[24;63H[K[24;63H71,1[10C49%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#chown_uploads=YES[m[24;63H[K[24;63H70,20[9C48%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;8H[1;23r[1;1H[L[1;24r[1;1H[96m# recommended![m[24;63H[K[24;63H69,8[10C47%[6;8H[?25h[?25l[24;53H~@k[6;8H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# a different user. Note! Using "root" for uploaded files is not[m[24;63H[K[24;63H68,20[9C46%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# If you want, you can arrange for uploaded anonymous files to be owned by[m[24;63H[K[24;63H67,1[10C46%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H66,20[9C45%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;18H[1;23r[1;1H[L[1;24r[1;1Hconnect_from_port_20=YES[24;63H[K[24;63H65,18[9C44%[6;18H[?25h[?25l[24;53H~@k[6;18H[24;53H   [6;14H[1;23r[1;1H[L[1;24r[1;1H[96m# Make sure PORT transfer connections originate from port 20 (ftp-data).[m[24;63H[K[24;63H64,14[9C43%[6;14H[?25h[?25l[24;53H~@k[6;14H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H63,20[9C43%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Hxferlog_enable=YES[24;63H[K[24;63H62,20[9C42%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Activate logging of uploads/downloads.[m[24;63H[K[24;63H61,1[10C41%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H60,20[9C40%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Huse_localtime=YES[24;63H[K[24;63H59,20[9C40%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# option.[m[24;63H[K[24;63H58,1[10C39%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;18H[1;23r[1;1H[L[1;24r[1;1H[96m# times returned by the MDTM FTP command are also affected by this[m[24;63H[K[24;63H57,18[9C38%[6;18H[?25h[?25l[24;53H~@k[6;18H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# in  your  local  time  zone.  The default is to display GMT. The[m[24;63H[K[24;63H56,20[9C37%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# If enabled, vsftpd will display directory listings with the time[m[24;63H[K[24;63H55,1[10C37%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;17H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H54,17[9C36%[6;17H[?25h[?25l[24;53H~@k[6;17H[24;53H   [6;9H[1;23r[1;1H[L[1;24r[1;1Hdirmessage_enable=YES[24;63H[K[24;63H53,9[10C35%[6;9H[?25h[?25l[24;53H~@k[6;9H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# go into a certain directory.[m[24;63H[K[24;63H52,20[9C34%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Activate directory messages - messages given to remote users when they[m[24;63H[K[24;63H51,20[9C34%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H50,20[9C33%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#anon_mkdir_write_enable=YES[m[24;63H[K[24;63H49,1[10C32%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# new directories.[m[24;63H[K[24;63H48,20[9C31%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Uncomment this if you want the anonymous FTP user to be able to create[m[24;63H[K[24;63H47,20[9C31%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H46,20[9C30%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#anon_upload_enable=YES[m[24;63H[K[24;63H45,1[10C29%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# obviously need to create a directory writable by the FTP user.[m[24;63H[K[24;63H44,20[9C28%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;18H[1;23r[1;1H[L[1;24r[1;1H[96m# has an effect if the above global write enable is activated. Also, you will[m[24;63H[K[24;63H43,18[9C28%[6;18H[?25h[?25l[24;53H~@k[6;18H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Uncomment this to allow the anonymous FTP user to upload files. This only[m[24;63H[K[24;63H42,20[9C27%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H41,1[10C26%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#local_umask=022[m[24;63H[K[24;63H40,20[9C25%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# if your users expect that (022 is used by most other ftpd's)[m[24;63H[K[24;63H39,20[9C25%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Default umask for local users is 077. You may wish to change this to 022,[m[24;63H[K[24;63H38,20[9C24%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H37,20[9C23%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#write_enable=YES[m[24;63H[K[24;63H36,1[10C22%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;16H[1;23r[1;1H[L[1;24r[1;1H[96m# Uncomment this to enable any form of FTP write command.[m[24;63H[K[24;63H35,16[9C21%[6;16H[?25h[?25l[24;53H~@k[6;16H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H34,20[9C21%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Hlocal_enable=YES[24;63H[K[24;63H33,20[9C20%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Uncomment this to allow local users to log in.[m[24;63H[K[24;63H32,1[10C19%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;17H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H31,17[9C18%[6;17H[?25h[?25l[24;53H~@k[6;17H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Hanonymous_enable=YES[24;63H[K[24;63H30,20[9C18%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Allow anonymous FTP? (Disabled by default).[m[24;63H[K[24;63H29,1[10C17%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;16H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H28,16[9C16%[6;16H[?25h[?25l[24;53H~@k[6;16H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Hlisten_ipv6=YES[24;63H[K[24;63H27,20[9C15%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# files.[m[24;63H[K[24;63H26,1[10C15%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# addresses) then you must run two copies of vsftpd with two configuration[m[24;63H[K[24;63H25,20[9C14%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# sockets. If you want that (perhaps because you want to listen on specific[m[24;63H[K[24;63H24,20[9C13%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# and IPv4 clients. It is not necessary to listen on *both* IPv4 and IPv6[m[24;63H[K[24;63H23,1[10C12%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;15H[1;23r[1;1H[L[1;24r[1;1H[96m# on the IPv6 "any" address (::) will accept connections from both IPv6[m[24;63H[K[24;63H22,15[9C12%[6;15H[?25h[?25l[24;53H~@k[6;15H[24;53H   [6;8H[1;23r[1;1H[L[1;24r[1;1H[96m# This directive enables listening on IPv6 sockets. By default, listening[m[24;63H[K[24;63H21,8[10C11%[6;8H[?25h[?25l[24;53H~@k[6;8H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H20,20[9C10%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1Hlisten=NO[24;63H[K[24;63H19,20[10C9%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# daemon started from an initscript.[m[24;63H[K[24;63H18,20[10C9%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Run standalone?  vsftpd can run either from an inetd or as a standalone[m[24;63H[K[24;63H17,20[10C8%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H16,20[10C7%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H15,1[11C6%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;9H[1;23r[1;1H[L[1;24r[1;1H[96m# capabilities.[m[24;63H[K[24;63H14,9[11C6%[6;9H[?25h[?25l[24;53H~@k[6;9H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# Please read the vsftpd.conf.5 manual page to get a full idea of vsftpd's[m[24;63H[K[24;63H13,20[10C5%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# READ THIS: This example file is NOT an exhaustive list of vsftpd options.[m[24;63H[K[24;63H12,20[10C4%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H11,1[11C3%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Please see vsftpd.conf.5 for all compiled in defaults.[m[24;63H[K[24;63H10,1[11C3%[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [6;15H[1;23r[1;1H[L[1;24r[1;1H[96m# loosens things up a bit, to make the ftp daemon more usable.[m[24;63H[K[24;63H9,15[11C2%[6;15H[?25h[?25l[24;53H~@k[6;15H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m# The default compiled in settings are fairly paranoid. This sample file[m[24;63H[K[24;63H8,20[11C1%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;20H[1;23r[1;1H[L[1;24r[1;1H[96m#[m[24;63H[K[24;63H7,20[11C0%[6;20H[?25h[?25l[24;53H~@k[6;20H[24;53H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[96m# Example config file /etc/vsftpd.conf[m[24;63H[K[24;63H6,1[11CTop[6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [5;20H[24;63H5,20[5;20H[?25h[?25l[24;53H~@k[5;20H[24;53H   [4;20H[24;63H4[4;20H[?25h[?25l[24;53H~@k[4;20H[24;53H   [3;20H[24;63H3[3;20H[?25h[?25l[24;53H~@k[3;20H[24;53H   [2;1H[24;63H2,1 [2;1H[?25h[?25l[24;53H~@k[2;1H[24;53H   [1;20H[24;63H1,20[1;20H[?25h[?25l[24;53H~@k[1;20H[24;53H   [1;20H[?25h[?25l[24;53H~@k[1;20H[24;53H   [1;20H[?25h[?25l[24;53H~@k[1;20H[24;53H   [1;20H[?25h[?25l[24;53H~@k[1;20H[24;53H   [1;20H[?25h[?25l[24;53H~@k[1;20H[24;53H   [2;1H[24;63H2,1 [2;1H[?25h[?25l[24;53H~@k[2;1H[24;53H   [3;20H[24;63H3,20[3;20H[?25h[?25l[24;53H~@k[3;20H[24;53H   [4;20H[24;63H4[4;20H[?25h[?25l[24;53H~@k[4;20H[24;53H   [5;20H[24;63H5[5;20H[?25h[?25l[24;53H~@k[5;20H[24;53H   [6;1H[24;63H6,1 [6;1H[?25h[?25l[24;53H~@k[6;1H[24;53H   [7;20H[24;63H7,20[7;20H[?25h[?25l[24;53H~@k[7;20H[24;53H   [8;20H[24;63H8[8;20H[?25h[?25l[24;53H~@k[8;20H[24;53H   [9;15H[24;63H9,15[9;15H[?25h[?25l[24;53H~@k[9;15H[24;53H   [10;1H[24;63H10,1[10;1H[?25h[?25l[24;53H~@k[10;1H[24;53H   [11;1H[24;64H1[11;1H[?25h[?25l[24;53H~@k[11;1H[24;53H   [12;20H[24;64H2,20[12;20H[?25h[?25l[24;53H~@k[12;20H[24;53H   [13;20H[24;64H3[13;20H[?25h[?25l[24;53H~@k[13;20H[24;53H   [14;9H[24;64H4,9 [14;9H[?25h[?25l[24;53H~@k[14;9H[24;53H   [15;1H[24;64H5,1[15;1H[?25h[?25l[24;53H~@k[15;1H[24;53H   [16;20H[24;64H6,20[16;20H[?25h[?25l[24;53H~@k[16;20H[24;53H   [17;20H[24;64H7[17;20H[?25h[?25l[24;53H~@k[17;20H[24;53H   [18;20H[24;64H8[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Allow anonymous FTP? (Disabled by default).[m[24;63H[K[24;63H19,20[10C0%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1Hanonymous_enable=YES[24;63H[K[24;63H20,20[10C1%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;8H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H21,8[11C2%[18;8H[?25h[?25l[24;53H~@k[18;8H[24;53H   [18;15H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow local users to log in.[m[24;63H[K[24;63H22,15[10C3%[18;15H[?25h[?25l[24;53H~@k[18;15H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hlocal_enable=YES[24;63H[K[24;63H23,1[11C3%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H24,20[10C4%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to enable any form of FTP write command.[m[24;63H[K[24;63H25,20[10C5%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#write_enable=YES[m[24;63H[K[24;63H26,1[11C6%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H27,20[10C6%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;16H[1;23r[23;1H
+[1;24r[23;1H[96m# Default umask for local users is 077. You may wish to change this to 022,[m[24;63H[K[24;63H28,16[10C7%[18;16H[?25h[?25l[24;53H~@k[18;16H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# if your users expect that (022 is used by most other ftpd's)[m[24;63H[K[24;63H29,1[11C8%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#local_umask=022[m[24;63H[K[24;63H30,20[10C9%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;17H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H31,17[10C9%[18;17H[?25h[?25l[24;53H~@k[18;17H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to allow the anonymous FTP user to upload files. This only[m[24;63H[K[24;63H32,1[10C10%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# has an effect if the above global write enable is activated. Also, you will[m[24;63H[K[24;63H33,20[9C11%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# obviously need to create a directory writable by the FTP user.[m[24;63H[K[24;63H34,20[9C12%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;16H[1;23r[23;1H
+[1;24r[23;1H[96m#anon_upload_enable=YES[m[24;63H[K[24;63H35,16[9C12%[18;16H[?25h[?25l[24;53H~@k[18;16H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H36,1[10C13%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this if you want the anonymous FTP user to be able to create[m[24;63H[K[24;63H37,20[9C14%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# new directories.[m[24;63H[K[24;63H38,20[9C15%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#anon_mkdir_write_enable=YES[m[24;63H[K[24;63H39,20[9C15%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H40,20[9C16%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Activate directory messages - messages given to remote users when they[m[24;63H[K[24;63H41,1[10C17%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# go into a certain directory.[m[24;63H[K[24;63H42,20[9C18%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;18H[1;23r[23;1H
+[1;24r[23;1Hdirmessage_enable=YES[24;63H[K[24;63H43,18[9C18%[18;18H[?25h[?25l[24;53H~@k[18;18H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H44,20[9C19%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# If enabled, vsftpd will display directory listings with the time[m[24;63H[K[24;63H45,1[10C20%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# in  your  local  time  zone.  The default is to display GMT. The[m[24;63H[K[24;63H46,20[9C21%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# times returned by the MDTM FTP command are also affected by this[m[24;63H[K[24;63H47,20[9C21%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# option.[m[24;63H[K[24;63H48,20[9C22%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Huse_localtime=YES[24;63H[K[24;63H49,1[10C23%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H50,20[9C24%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Activate logging of uploads/downloads.[m[24;63H[K[24;63H51,20[9C25%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1Hxferlog_enable=YES[24;63H[K[24;63H52,20[9C25%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;9H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H53,9[10C26%[18;9H[?25h[?25l[24;53H~@k[18;9H[24;53H   [18;17H[1;23r[23;1H
+[1;24r[23;1H[96m# Make sure PORT transfer connections originate from port 20 (ftp-data).[m[24;63H[K[24;63H54,17[9C27%[18;17H[?25h[?25l[24;53H~@k[18;17H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hconnect_from_port_20=YES[24;63H[K[24;63H55,1[10C28%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H56,20[9C28%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;18H[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can arrange for uploaded anonymous files to be owned by[m[24;63H[K[24;63H57,18[9C29%[18;18H[?25h[?25l[24;53H~@k[18;18H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# a different user. Note! Using "root" for uploaded files is not[m[24;63H[K[24;63H58,1[10C30%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# recommended![m[24;63H[K[24;63H59,20[9C31%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#chown_uploads=YES[m[24;63H[K[24;63H60,20[9C31%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#chown_username=whoever[m[24;63H[K[24;63H61,1[10C32%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H62,20[9C33%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may override where the log file goes if you like. The default is shown[m[24;63H[K[24;63H63,20[9C34%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;14H[1;23r[23;1H
+[1;24r[23;1H[96m# below.[m[24;63H[K[24;63H64,14[9C34%[18;14H[?25h[?25l[24;53H~@k[18;14H[24;53H   [18;18H[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_file=/var/log/vsftpd.log[m[24;63H[K[24;63H65,18[9C35%[18;18H[?25h[?25l[24;53H~@k[18;18H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H66,20[9C36%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# If you want, you can have your log file in standard ftpd xferlog format.[m[24;63H[K[24;63H67,1[10C37%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Note that the default log file location is /var/log/xferlog in this case.[m[24;63H[K[24;63H68,20[9C37%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;8H[1;23r[23;1H
+[1;24r[23;1H[96m#xferlog_std_format=YES[m[24;63H[K[24;63H69,8[10C38%[18;8H[?25h[?25l[24;53H~@k[18;8H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H70,20[9C39%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out an idle session.[m[24;63H[K[24;63H71,1[10C40%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#idle_session_timeout=600[m[24;63H[K[24;63H72,20[9C40%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H73,20[9C41%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may change the default value for timing out a data connection.[m[24;63H[K[24;63H74,20[9C42%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#data_connection_timeout=120[m[24;63H[K[24;63H75,1[10C43%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H76,20[9C43%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# It is recommended that you define on your system a unique user which the[m[24;63H[K[24;63H77,20[9C44%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# ftp server can use as a totally isolated and unprivileged user.[m[24;63H[K[24;63H78,1[10C45%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#nopriv_user=ftpsecure[m[24;63H[K[24;63H79,20[9C46%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H80,20[9C46%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# Enable this and the server will recognise asynchronous ABOR requests. Not[m[24;63H[K[24;63H81,1[10C47%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# recommended for security (the code is non-trivial). Not enabling it,[m[24;63H[K[24;63H82,20[9C48%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# however, may confuse older FTP clients.[m[24;63H[K[24;63H83,20[9C49%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#async_abor_enable=YES[m[24;63H[K[24;63H84,20[9C50%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H85,1[10C50%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# By default the server will pretend to allow ASCII mode but in fact ignore[m[24;63H[K[24;63H86,20[9C51%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# the request. Turn on the below options to have the server actually do ASCII[m[24;63H[K[24;63H87,20[9C52%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# mangling on files when in ASCII mode.[m[24;63H[K[24;63H88,20[9C53%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Beware that on some FTP servers, ASCII support allows a denial of service[m[24;63H[K[24;63H89,20[9C53%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# attack (DoS) via the command "SIZE /big/file" in ASCII mode. vsftpd[m[24;63H[K[24;63H90,1[10C54%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# predicted this attack and has always been safe, reporting the size of the[m[24;63H[K[24;63H91,20[9C55%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# raw file.[m[24;63H[K[24;63H92,20[9C56%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# ASCII mangling is a horrible feature of the protocol.[m[24;63H[K[24;63H93,20[9C56%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_upload_enable=YES[m[24;63H[K[24;63H94,20[9C57%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#ascii_download_enable=YES[m[24;63H[K[24;63H95,20[9C58%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H96,20[9C59%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;11H[1;23r[23;1H
+[1;24r[23;1H[96m# You may fully customise the login banner string:[m[24;63H[K[24;63H97,11[9C59%[18;11H[?25h[?25l[24;53H~@k[18;11H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#ftpd_banner=Welcome to blah FTP service.[m[24;63H[K[24;63H98,20[9C60%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H99,20[9C61%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify a file of disallowed anonymous e-mail addresses. Apparently[m[24;63H[K[24;63H100,20[8C62%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# useful for combatting certain DoS attacks.[m[24;63H[K[24;63H101,1[9C62%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#deny_email_enable=YES[m[24;63H[K[24;63H102,20[8C63%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H103,20[8C64%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#banned_email_file=/etc/vsftpd.banned_emails[m[24;63H[K[24;63H104,1[9C65%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H105,20[8C65%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may restrict local users to their home directories.  See the FAQ for[m[24;63H[K[24;63H106,20[8C66%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# the possible risks in this before using chroot_local_user or[m[24;63H[K[24;63H107,20[8C67%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;19H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot_list_enable below.[m[24;63H[K[24;63H108,19[8C68%[18;19H[?25h[?25l[24;53H~@k[18;19H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H109,20[8C68%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H110,1[9C69%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may specify an explicit list of local users to chroot() to their home[m[24;63H[K[24;63H111,20[8C70%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# directory. If chroot_local_user is YES, then this list becomes a list of[m[24;63H[K[24;63H112,20[8C71%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# users to NOT chroot().[m[24;63H[K[24;63H113,20[8C71%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# (Warning! chroot'ing can be very dangerous. If using chroot, make sure that[m[24;63H[K[24;63H114,20[8C72%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# the user does not have write access to the top level directory within the[m[24;63H[K[24;63H115,1[9C73%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# chroot)[m[24;63H[K[24;63H116,20[8C74%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_local_user=YES[m[24;63H[K[24;63H117,20[8C75%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_enable=YES[m[24;63H[K[24;63H118,20[8C75%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# (default follows)[m[24;63H[K[24;63H119,20[8C76%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#chroot_list_file=/etc/vsftpd.chroot_list[m[24;63H[K[24;63H120,20[8C77%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;9H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H121,9[9C78%[18;9H[?25h[?25l[24;53H~@k[18;9H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# You may activate the "-R" option to the builtin ls. This is disabled by[m[24;63H[K[24;63H122,20[8C78%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# default to avoid remote users being able to cause excessive I/O on large[m[24;63H[K[24;63H123,20[8C79%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;19H[1;23r[23;1H
+[1;24r[23;1H[96m# sites. However, some broken FTP clients such as "ncftp" and "mirror" assume[m[24;63H[K[24;63H124,19[8C80%[18;19H[?25h[?25l[24;53H~@k[18;19H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# the presence of the "-R" option, so there is a strong case for enabling it.[m[24;63H[K[24;63H125,20[8C81%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#ls_recurse_enable=YES[m[24;63H[K[24;63H126,1[9C81%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H127,20[8C82%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Customization[m[24;63H[K[24;63H128,20[8C83%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H129,20[8C84%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Some of vsftpd's settings don't fit the filesystem layout by[m[24;63H[K[24;63H130,20[8C84%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# default.[m[24;63H[K[24;63H131,20[8C85%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H132,1[9C86%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;15H[1;23r[23;1H
+[1;24r[23;1H[96m# This option should be the name of a directory which is empty.  Also, the[m[24;63H[K[24;63H133,15[8C87%[18;15H[?25h[?25l[24;53H~@k[18;15H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# directory should not be writable by the ftp user. This directory is used[m[24;63H[K[24;63H134,1[9C87%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# as a secure chroot() jail at times vsftpd does not require filesystem[m[24;63H[K[24;63H135,20[8C88%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;10H[1;23r[23;1H
+[1;24r[23;1H[96m# access.[m[24;63H[K[24;63H136,10[8C89%[18;10H[?25h[?25l[24;53H~@k[18;10H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hsecure_chroot_dir=/var/run/vsftpd/empty[24;63H[K[24;63H137,1[9C90%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H138,20[8C90%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# This string is the name of the PAM service vsftpd will use.[m[24;63H[K[24;63H139,20[8C91%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1Hpam_service_name=vsftpd[24;63H[K[24;63H140,20[8C92%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;9H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H141,9[9C93%[18;9H[?25h[?25l[24;53H~@k[18;9H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# This option specifies the location of the RSA certificate to use for SSL[m[24;63H[K[24;63H142,20[8C93%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[96m# encrypted connections.[m[24;63H[K[24;63H143,1[9C94%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1Hrsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem[24;63H[K[24;63H144,20[8C95%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1Hrsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key[24;63H[K[24;63H145,20[8C96%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hssl_enable=NO[24;63H[K[24;63H146,1[9C96%[18;1H[?25h[?25l[24;53H~@k[18;1H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[24;63H[K[24;63H147,20[8C97%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#[m[24;63H[K[24;63H148,20[8C98%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m# Uncomment this to indicate that vsftpd use a utf8 filesystem.[m[24;63H[K[24;63H149,20[8C99%[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [18;20H[1;23r[23;1H
+[1;24r[23;1H[96m#utf8_filesystem=YES[m[24;63H[K[24;63H150,20[8CBot[18;20H[?25h[?25l[24;53H~@k[18;20H[24;53H   [19;13H[24;65H1,13[19;13H[?25h[?25l[24;53H~@k[19;13H[24;53H   [20;1H[24;65H2,0-1[20;1H[?25h[?25l[24;53H~@k[20;1H[24;53H   [21;1H[24;65H3,1  [21;1H[?25h[?25l[24;53H~@k[21;1H[24;53H   [22;20H[24;65H4,20[22;20H[?25h[?25l[24;53H~@k[22;20H[24;53H   [23;20H[24;65H5[23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H~@k[23;20H[24;53H   [23;20H[?25h[?25l[24;53H^[[23;20H[24;53H  [23;20H[24;53H^[[23;20H[24;53H  [23;20H[?25h[?25l[24;53H:[23;20H[24;53H[K[24;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"/etc/vsftpd.conf" 155L, 5851C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ sudo service vsftpd restart
+]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ idc[K[Kfcondif[K[K[Kfig
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:f4:0f:31:80  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 96614  bytes 139387128 (139.3 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 96614  bytes 139387128 (139.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.5  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::5e86:252:916e:6148  prefixlen 64  scopeid 0x20<link>
+        ether 2c:33:7a:0a:23:2f  txqueuelen 1000  (Ethernet)
+        RX packets 444195  bytes 510736486 (510.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 209485  bytes 43863057 (43.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;ghostjson@ghost: ~/Documents/lab/cs232/3003[01;32mghostjson@ghost[00m:[01;34m~/Documents/lab/cs232/3003[00m$ exit
+exit
+
+Script done on 2020-03-30 20:47:59+0530
