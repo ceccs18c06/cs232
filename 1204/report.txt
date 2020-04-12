@@ -1,0 +1,80 @@
+CECCS18C06 12-04-2020
+Akhil Ravindran
+
+--------------------------------
+#1: Package Management (t8.1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#update the package database
+	sudo apt-get update
+
+	#upgrade all packages
+	sudo apt-get upgrade
+
+	#search for a specific library (here lib6)
+	apt-cache search lib6
+
+	#search with specific package name
+	apt-cache pkgnames lib6
+
+	#get information of a package
+	apt-cache showpkg lib64stdc++6
+
+	#install lib64stdc++6 package
+	sudo apt-get install lib64stdc++6
+
+	#remove lib64stdc++6 package
+	sudo apt-get remove lib64stdc++6
+
+	#remove lib64stdc++6 package including configurations
+	sudo apt-get purge lib64stdc++6
+
+	#to clean local repository of retrieved package
+	sudo apt-get clean
+
+	#to remove old retrieved packages 
+	sudo apt-get autoclean
+
+	#to remove dependency packages which are no longer useful
+	sudo apt-get autoremove
+
+--------------------------------
+Output: 
+	
+	#list of all packages in the system
+	packages_list.txt
+	
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+--------------------------------
+#2: Perl (t8.2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#to execute the billing program
+	perl app.pl
+
+--------------------------------
+Output: 
+	
+	#contain last created bill
+	bill.txt
+	
+-------------------
+Remarks if any:
+
+	A perl program for billing products in a shop
+
+-------------------------------------
+-------------------------------------
