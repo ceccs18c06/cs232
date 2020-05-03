@@ -1,0 +1,253 @@
+Script started on 2020-05-03 18:36:31+0530
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ chmod +x addnames 
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./addnames ulist ghosts[Kjson
+Username is already existed in the list
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./addnames ulist ghostjson
+Username is already existed in the list
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./addnames ulist ghostjson[1P ghostjson
+ulis is not exist
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./addnames ulis ghostjson[K[K[K[K[K[K[K[K[K[Kt
+incorrect number of arguments passed
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./addnames ulist json
+json is added to ulist
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ chmod +x s6.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K./s6.sh
+Calculator Program
+
+
+Enter 1 to perform addition
+
+Enter 2 to perform subtraction
+
+Enter 3 to perform multiplication
+
+Enter 4 to perform division
+
+1
+Enter two numbers: 
+12
+20
+12 + 20 = 32
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./s5.sh 
+System Configuration
+
+
+OS version and release number:
+
+NAME="Linux Mint"
+VERSION="19.3 (Tricia)"
+ID=linuxmint
+ID_LIKE=ubuntu
+PRETTY_NAME="Linux Mint 19.3"
+VERSION_ID="19.3"
+HOME_URL="https://www.linuxmint.com/"
+SUPPORT_URL="https://forums.ubuntu.com/"
+BUG_REPORT_URL="http://linuxmint-troubleshooting-guide.readthedocs.io/en/latest/"
+PRIVACY_POLICY_URL="https://www.linuxmint.com/"
+VERSION_CODENAME=tricia
+UBUNTU_CODENAME=bionic
+
+kernal version:
+
+5.0.0-32-generic
+
+available shells:
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information:
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+stepping	: 9
+microcode	: 0x15
+cpu MHz		: 809.262
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx f16c lahf_lm cpuid_fault epb pti tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3791.42
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+stepping	: 9
+microcode	: 0x15
+cpu MHz		: 809.692
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx f16c lahf_lm cpuid_fault epb pti tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3791.42
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+stepping	: 9
+microcode	: 0x15
+cpu MHz		: 880.002
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx f16c lahf_lm cpuid_fault epb pti tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3791.42
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 58
+model name	: Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+stepping	: 9
+microcode	: 0x15
+cpu MHz		: 821.632
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer xsave avx f16c lahf_lm cpuid_fault epb pti tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+bogomips	: 3791.42
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+  Memory information:
+
+              total        used        free      shared  buff/cache   available
+Mem:           1802         991         203         170         606         393
+Swap:          3905         125        3780
+
+  Hard disc information:
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            867M     0  867M   0% /dev
+tmpfs           181M  1.4M  179M   1% /run
+/dev/sda5        72G  6.0G   62G   9% /
+tmpfs           902M   76M  827M   9% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           902M     0  902M   0% /sys/fs/cgroup
+/dev/sda2        96M   30M   67M  31% /boot/efi
+/dev/sda9        61G  583M   57G   1% /home
+tmpfs           181M   32K  181M   1% /run/user/1000
+
+File system (Mounted):
+
+sysfs       on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc        on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev        on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=887384k,nr_inodes=221846,mode=755)
+devpts      on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs       on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=184556k,mode=755)
+/dev/sda5   on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs  on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs       on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs       on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs       on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup      on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup      on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore      on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+efivarfs    on  /sys/firmware/efi/efivars        type  efivarfs         (rw,nosuid,nodev,noexec,relatime)
+cgroup      on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup      on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup      on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup      on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup      on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup      on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup      on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup      on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup      on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup      on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup      on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+systemd-1   on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=40,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=17085)
+mqueue      on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs     on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+hugetlbfs   on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+fusectl     on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+configfs    on  /sys/kernel/config               type  configfs         (rw,relatime)
+/dev/sda2   on  /boot/efi                        type  vfat             (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+/dev/sda9   on  /home                            type  ext4             (rw,relatime)
+tmpfs       on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=184552k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse  on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ ./s4.sh 
+Shell Programming
+
+
+Username: jacinth
+
+Current shell: /bin/bash
+
+Home directory: /home/jacinth
+
+Operating system type:
+GNU/Linux
+
+Current path settings: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Present working directory:
+/home/jacinth/lab/cs232/0305
+
+ Number of users logged in:
+ 18:37:56 up  1:52,  1 user,  load average: 0.50, 0.57, 0.67
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+jacinth  tty7     :0               16:46    1:52m  4:20   0.71s xfce4-session
+]0;jacinth@jacinth-pc: ~/lab/cs232/0305[01;32mjacinth@jacinth-pc[00m:[01;34m~/lab/cs232/0305[00m$ exit
+exit
+
+Script done on 2020-05-03 18:38:04+0530

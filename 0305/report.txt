@@ -1,0 +1,108 @@
+CEC CS 18 C06
+Akhil Ravindran
+
+MAC Address:1e:b4:46:3e:b0:61
+
+--------------------------------
+#1: Scripting Task ( S7 )
+
+---------------------------------
+Command/Shell script/Program name
+
+	#Make Executable:
+  	chmod +x addnames
+
+	#Run Program
+  	./addnames ulist username
+
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+	---Input---
+		
+		./addnames ulist ghostjson
+
+	---output---
+
+		username is added to ulist
+
+-------------------
+Remarks if any:
+
+--------------------------------------------------------------------
+
+--------------------------------
+#2: Calculator Program ( S6 )
+
+---------------------------------
+Command/Shell script/Program name
+
+	#Make Executable:
+  	chmod +x s6.sh
+
+	#Run Program
+  	./s6.sh
+
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+	// outputs correspoding results
+
+-------------------
+Remarks if any:
+
+--------------------------------------------------------------------
+
+--------------------------------
+#3: Program to show system configuration ( S5 )
+
+---------------------------------
+Command/Shell script/Program name
+
+	#Make Executable:
+  	chmod +x s5.sh
+
+	#Run Program
+  	./s5.sh
+
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+-------------------
+Remarks if any:
+
+--------------------------------------------------------------------
+
+
+--------------------------------
+#4: Shell Programming ( S4 )
+
+---------------------------------
+Command/Shell script/Program name
+
+	#Make Executable:
+  	chmod +x s4.sh
+
+	#Run Program
+  	./s4.sh
+
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+-------------------
+Remarks if any:
+
+--------------------------------------------------------------------
+
